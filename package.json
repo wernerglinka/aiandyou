@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-ai-and-you",
+  "private": true,
+  "description": "ai-and-you-website",
+  "version": "1.0.0",
+  "author": "werner@glinka.co",
+  "dependencies": {
+    "@emotion/cache": "^10.0.19",
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.22",
+    "child_process": "^1.0.2",
+    "emotion-theming": "^10.0.19",
+    "gatsby": "^2.17.1",
+    "gatsby-image": "^2.2.29",
+    "gatsby-plugin-emotion": "^4.1.12",
+    "gatsby-plugin-layout": "^1.1.13",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sharp": "^2.2.32",
+    "gatsby-remark-images": "^3.1.28",
+    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-transformer-json": "^2.2.15",
+    "gatsby-transformer-remark": "^2.1.17",
+    "gatsby-transformer-sharp": "^2.3.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "react-scroll": "^1.7.14",
+    "remark": "^11.0.1",
+    "remark-html": "^10.0.0",
+    "remark-preset-lint-recommended": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.18.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
