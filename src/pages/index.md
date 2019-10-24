@@ -5,10 +5,10 @@ title: my home page
 
 heading: home page heading
 
-intro: >-
-  “The new tools of our oppression”, is one way the world's top researchers and industry leaders have described the threat that artificial intelligence poses to humankind. Will artificial intelligence (AI) enhance our lives or completely upend them?  Will communities of color be prepared for AI related opportunities and changes impacting their neighborhoods? Community outreach is necessary to prepare for changes and opportunities of AI!
+intro: |
+  “_The new tools of our oppression_”, is one way the world's top researchers and industry leaders have described the threat that artificial intelligence poses to humankind. Will artificial intelligence (AI) enhance our lives or completely upend them?  Will communities of color be prepared for AI related opportunities and changes impacting their neighborhoods? Community outreach is necessary to prepare for changes and opportunities of AI!
 
-  While no one can **foresee** exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears -- though realistic -- can be managed through education and dialogue. The lesson of history is that scary stories about job-stealing machines lead to focusing on the short-term pain caused by new technologies while minimizing the even greater long-term benefits.
+  While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears -- though realistic -- can be managed through education and dialogue. The lesson of history is that scary stories about job-stealing machines lead to focusing on the short-term pain caused by new technologies while minimizing the even greater long-term benefits.
   AI impacts every global community member, yet its long-term impact on communities of color is unknown. Conversations about AI and employment, medicine, education, transportation and more are absent in the communities most directly affected by automation and other AI related activities. Some understand there is considerable potential for altering business processes, but most are not clear how AI could be deployed within their own jobs, communities and everyday life.
 
 about: |
@@ -70,7 +70,8 @@ approach2: |
 
 story: |
   ## The Story
-  Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility and Social Good teams at Facebook when she led Community Engagement for the company.  Susan experienced the positive outcomes of AI through this work.  When she left Facebook to work as a consultant, she continued to explore AI and saw the consequences of unintended bias of AI in the community in additional to its social good purposes.  
+  Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility and Social Good teams at Facebook when she led Community Engagement for the company.  Susan experienced the positive outcomes of AI through this work.  When she left Facebook to work as a consultant, she continued to explore AI and saw the consequences of unintended bias of AI in the community in additional to its social good purposes.
+
   Susan was retained by Neuro Information Processing Systems (NeurIPS) to lead diversity and inclusion work at the global conference in Montreal in 2019.  Susan led the first global town hall discussing AI and Diversity and was joined by the leaders of LatinxinAI, BlackinAI, WomeninMachineLearning (WIML) and QueerinAI.  Over time, Susan realized that the science community has conversations about AI and its impact on the community yet, outreach and communications in communities of color was not taking place. Susan identified the need to bridge AI leaders with communities of color to discuss AI and social good, unintended biases and impact on everyday life.  Susan launched AIandyou.org educate communities of color about all aspects of AI.
   Click [here](https://www.facebook.com/nipsfoundation/videos/284660435523814/) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neuro-Processing Information Systems (NeurIPS) AI Global Conference
 

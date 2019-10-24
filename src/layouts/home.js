@@ -62,7 +62,11 @@ const home = ({ data }) => {
     <Layout>
       <Container>
         <section>
-          <p>{pageContent.intro}</p>
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.intro),
+            }}
+          />
         </section>
         <section id="about">
           <SectionProse
