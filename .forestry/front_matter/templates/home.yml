@@ -60,18 +60,38 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: attribution
     label: attribution
 - type: textarea
   name: approach2
   label: approach2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: story
   label: story
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: leadership
   label: leadership
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: communities
   label: communities
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
