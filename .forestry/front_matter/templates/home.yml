@@ -95,3 +95,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- src/pages/index.md
