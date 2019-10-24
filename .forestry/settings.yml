@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/pages
   label: Home
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
