@@ -14,9 +14,17 @@ fields:
 - type: textarea
   name: intro
   label: intro
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: about
   label: about
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: field_group
   name: aside1
   label: aside1
@@ -24,15 +32,27 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: attribution
     label: attribution
 - type: textarea
   name: mission
   label: mission
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: textarea
   name: approach1
   label: approach1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: field_group
   name: aside2
   label: aside2
