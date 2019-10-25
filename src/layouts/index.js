@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import { ThemeProvider } from "emotion-theming";
 import { animateScroll } from "react-scroll";
 import { FiArrowUp } from "react-icons/fi";
+import { ParallaxProvider } from "react-scroll-parallax";
 import useToTop from "../hooks/useToTop";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import Head from "../components/head";
@@ -11,7 +12,6 @@ import PageNav from "../components/page-nav";
 import Footer from "../components/footer";
 import "../theme/global.scss";
 import theme from "../theme/theme";
-import ParallaxProvider from "react-scroll-parallax";
 
 const ToTop = styled.button`
   position: fixed;
