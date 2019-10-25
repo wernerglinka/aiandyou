@@ -30,6 +30,7 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
     "react-scroll": "^1.7.14",
+    "react-scroll-parallax": "^2.2.0",
     "remark": "^11.0.1",
     "remark-html": "^10.0.0",
     "remark-preset-lint-recommended": "^3.0.3"

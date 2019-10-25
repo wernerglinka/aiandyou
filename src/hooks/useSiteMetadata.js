@@ -5,20 +5,15 @@ const useSiteMetadata = () => {
     {
       site {
         siteMetadata {
-          canonicalURL
           pageURL
           description
           faviconURL
-          imageURL
-          cloudinaryBaseURL
           social {
             siteOwner
             twitterHandle
           }
           title
-          validate {
-            ms
-          }
+          copyright
         }
       }
     }

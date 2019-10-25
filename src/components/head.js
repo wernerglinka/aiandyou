@@ -12,7 +12,6 @@ import useSiteMetadata from "../hooks/useSiteMetadata";
 const Head = ({ metaData }) => {
   // deconstruct the passed-in meta data
   const {
-    canonicalURL,
     description,
     faviconURL,
     imageURL,
@@ -26,7 +25,6 @@ const Head = ({ metaData }) => {
   const {
     description: defaultdescription,
     faviconURL: defaultFaviconURL,
-    imageURL: defaultImageURL,
     pageURL: defaultPageURL,
     social: defaultSocial,
     title: defaultTitle,
@@ -36,7 +34,7 @@ const Head = ({ metaData }) => {
   const metadata = {
     description: description || defaultdescription,
     faviconURL: faviconURL || defaultFaviconURL,
-    imageURL: imageURL || defaultImageURL,
+    imageURL,
     pageURL: pageURL || defaultPageURL,
     social: social || defaultSocial,
     title: title || defaultTitle,
@@ -89,8 +87,6 @@ Head.propTypes = {
     description: PropTypes.string,
     imageURL: PropTypes.string,
     pageURL: PropTypes.string,
-    validate: PropTypes.shape(),
-    canonicalURL: PropTypes.string,
     faviconURL: PropTypes.string,
     social: PropTypes.shape(),
   }),
@@ -105,8 +101,6 @@ Head.defaultProps = {
     description: null,
     imageURL: null,
     pageURL: null,
-    validate: null,
-    canonicalURL: null,
     faviconURL: null,
     social: null,
   },

@@ -5,7 +5,7 @@ import remark from "remark";
 import recommended from "remark-preset-lint-recommended";
 import remarkHtml from "remark-html";
 import styled from "@emotion/styled";
-import Layout from "./index";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 function mdStringToHTML(mdString) {
   return remark()
@@ -54,12 +54,10 @@ const Quote = styled.blockquote`
 `;
 
 const home = ({ data }) => {
-  console.log(data);
-
   const pageContent = data.allMarkdownRemark.edges[0].node.frontmatter;
 
   return (
-    <Layout>
+    <>
       <Container>
         <section>
           <SectionProse
@@ -69,6 +67,20 @@ const home = ({ data }) => {
           />
         </section>
         <section id="about">
+          <ParallaxBanner
+            className="your-class"
+            layers={[
+              {
+                image: "https://foo.com/foo.jpg",
+                amount: 0.1,
+              },
+            ]}
+            style={{
+              height: "500px",
+            }}
+          >
+            <h1>About</h1>
+          </ParallaxBanner>
           <SectionProse
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.about),
@@ -142,7 +154,7 @@ const home = ({ data }) => {
           />
         </section>
       </Container>
-    </Layout>
+    </>
   );
 };
 

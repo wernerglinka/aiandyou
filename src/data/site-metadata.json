@@ -1,18 +1,12 @@
 {
-  "title": "New Gatsby Starter",
-  "description": "yada yada yada",
+  "title": "AI and You",
+  "description": "AIandYou.org is a U.S. based non-profit creating opportunities for communities of color and women to learn about Artificial Intelligence (AI) through local outreach, informative gatherings, conversations and on-going communications with diverse AI leaders and others in the field.",
   "faviconURL": "/favicon.ico",
-  "canonicalURL": "https://www.perimeterx.com",
-  "pageURL": "https://www.perimeterx.com",
-  "imageURL": "/default-thumb.png",
-  "cloudinaryBaseURL": "https://res.cloudinary.com/glinkaco/image/upload",
-  "tnDefaultWidth": 400,
-  "imageMaxWidth": 800,
+  "canonicalURL": "https://www.aiandyou.com",
+  "pageURL": "https://www.aiandyou.com",
   "social": {
-    "siteOwner": "PerimeterX",
-    "twitterHandle": "perimeterx"
+    "siteOwner": "aiandyou",
+    "twitterHandle": "aiandyou"
   },
-  "validate": {
-    "ms": "1234567890"
-  }
+  "copyright": "© AI and You. All Rights Reserved"
 }

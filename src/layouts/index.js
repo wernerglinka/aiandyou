@@ -8,8 +8,10 @@ import useToTop from "../hooks/useToTop";
 import useSiteMetadata from "../hooks/useSiteMetadata";
 import Head from "../components/head";
 import PageNav from "../components/page-nav";
+import Footer from "../components/footer";
 import "../theme/global.scss";
 import theme from "../theme/theme";
+import ParallaxProvider from "react-scroll-parallax";
 
 const ToTop = styled.button`
   position: fixed;
@@ -49,16 +51,19 @@ const Layout = ({ children }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Head metaData={siteMetadata} />
-      <PageNav targets={targets} />
-      {children}
-      <ToTop
-        className={toTopIsVisible ? "isVisible" : null}
-        type="button"
-        onClick={() => animateScroll.scrollToTop()}
-      >
-        <FiArrowUp />
-      </ToTop>
+      <ParallaxProvider>
+        <Head metaData={siteMetadata} />
+        <PageNav targets={targets} />
+        {children}
+        <Footer />
+        <ToTop
+          className={toTopIsVisible ? "isVisible" : null}
+          type="button"
+          onClick={() => animateScroll.scrollToTop()}
+        >
+          <FiArrowUp />
+        </ToTop>
+      </ParallaxProvider>
     </ThemeProvider>
   );
 };
