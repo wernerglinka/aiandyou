@@ -1,0 +1,99 @@
+---
+label: Home
+hide_body: true
+fields:
+- type: text
+  name: template
+  label: template
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: textarea
+  name: intro
+  label: intro
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: about
+  label: about
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group
+  name: aside1
+  label: aside1
+  fields:
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: attribution
+    label: attribution
+- type: textarea
+  name: mission
+  label: mission
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: approach1
+  label: approach1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group
+  name: aside2
+  label: aside2
+  fields:
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: attribution
+    label: attribution
+- type: textarea
+  name: approach2
+  label: approach2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: story
+  label: story
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: leadership
+  label: leadership
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: communities
+  label: communities
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+pages:
+- src/pages/index.md
