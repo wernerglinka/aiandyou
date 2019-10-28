@@ -177,7 +177,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou3.jpeg",
+                image: "/uploads/aiandyou8.jpeg",
                 amount: 0.5,
               },
             ]}
