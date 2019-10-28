@@ -110,3 +110,5 @@ fields:
   - type: textarea
     name: prose
     label: prose
+pages:
+- src/pages/index.md
