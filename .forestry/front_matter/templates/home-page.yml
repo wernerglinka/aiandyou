@@ -53,6 +53,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: attribution
     label: attribution
@@ -66,6 +70,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: approach1
   label: approach1
@@ -76,6 +84,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: aside2
   label: aside2
@@ -83,12 +95,20 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: attribution
     label: attribution
 - type: textarea
   name: approach2
   label: approach2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: field_group
   name: story
   label: story
@@ -99,6 +119,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: leadership
   label: leadership
@@ -112,6 +136,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: communities
   label: communities
@@ -122,5 +150,9 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - src/pages/index.md
