@@ -20,7 +20,7 @@ const ToTop = styled.button`
   z-index: 1001;
   width: 40px;
   height: 40px;
-  border: 1px solid #000;
+  box-shadow: 0px 0px 29px -12px rgba(0, 0, 0, 0.75);
   border-radius: 20px;
   padding-top: 5px;
   text-align: center;
