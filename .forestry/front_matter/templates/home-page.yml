@@ -1,0 +1,158 @@
+---
+label: Home Page
+hide_body: true
+fields:
+- type: text
+  name: template
+  label: template
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: textarea
+    name: section1
+    label: section1
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: section2
+    label: section2
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: aside1
+  label: aside1
+  fields:
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: attribution
+    label: attribution
+- type: field_group
+  name: mission
+  label: mission
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: approach1
+  label: approach1
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: aside2
+  label: aside2
+  fields:
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: attribution
+    label: attribution
+- type: textarea
+  name: approach2
+  label: approach2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group
+  name: story
+  label: story
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: leadership
+  label: leadership
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: communities
+  label: communities
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: prose
+    label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+pages:
+- src/pages/index.md
