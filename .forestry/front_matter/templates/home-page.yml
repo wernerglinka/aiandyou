@@ -24,6 +24,10 @@ fields:
   - type: textarea
     name: section2
     label: section2
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: about
   label: about
@@ -34,6 +38,10 @@ fields:
   - type: textarea
     name: prose
     label: prose
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: aside1
   label: aside1
