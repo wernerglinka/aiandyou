@@ -17,6 +17,7 @@ const ToTop = styled.button`
   position: fixed;
   bottom: 30px;
   right: 20px;
+  z-index: 1001;
   width: 40px;
   height: 40px;
   border: 1px solid #000;
