@@ -18,6 +18,10 @@ fields:
   - type: textarea
     name: section1
     label: section1
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: file
     name: image
     label: image
