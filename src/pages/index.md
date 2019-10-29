@@ -13,7 +13,8 @@ intro:
     The long-term impact of AI on communities of color is unknown. Conversations about AI are absent in the communities most directly affected by automation and other AI tools.
 about:
   title: About AI and You
-  prose: "AIandYou.org is a U.S. based non-profit creating opportunities for communities
+  prose:
+    "AIandYou.org is a U.S. based non-profit creating opportunities for communities
     of color and women to learn about Artificial Intelligence (AI) through local outreach,
     informative gatherings, conversations and on-going communications with diverse
     AI leaders and others in the field.\n\nThe AIandYou.org team creates AI educational
@@ -30,11 +31,13 @@ aside1:
   prose: |
     As the Artificial Intelligence market reaches $70 billion by 2020, humans' fear is in the rise. Why do humans fear AI?
     AI can only become what humans want it to become. Humans are tasked with coding into their AI creations. If the mass population is becoming anxious about AI this is due to fear of the unknown. It is also perhaps due to too little information available out there on the benefits that AI brings in order to balance with those believing AI will destroy society.
-  attribution: Artificial Intelligence and the Fear of the Unknown – Interesting Engineer,
+  attribution:
+    Artificial Intelligence and the Fear of the Unknown – Interesting Engineer,
     2019
 mission:
   title: Mission
-  prose: "AIandYou.org is committed to educating communities of color about AI and
+  prose:
+    "AIandYou.org is committed to educating communities of color about AI and
     supporting diverse AI leaders.  \n\nAll communities benefit from understanding
     more about AI and… \n\n- its social good impact\n- automation preparation\n- long
     term challenges and opportunities \n\n_A portion of proceeds is donated to participating
@@ -58,7 +61,8 @@ approach1:
     - UNIDOS US
     - YWCA
 aside2:
-  prose: African Americans stand to lose thousands jobs to automation in some of the
+  prose:
+    African Americans stand to lose thousands jobs to automation in some of the
     nation's largest cities over the next decade, according to new research from McKinsey
     & Co.
   attribution: CBSNews, 10/2019
@@ -77,7 +81,8 @@ approach2: |
   - NHCSL (National Hispanic Caucus of State Legislators)
 story:
   title: The Story
-  prose: "Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility
+  prose:
+    "Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility
     and Social Good teams at Facebook.  Susan experienced the positive outcomes of
     AI through this work.  She continued to explore AI and continued to see its social
     good purposes and its unintended bias of AI. \nSusan led the first global town
@@ -106,26 +111,23 @@ leadership:
     Listen to The All Turtles Podcast Episode 51: [Startup communication and outreach with Susan Gonzales](https://www.all-turtles.com/podcast/the-all-turtles-podcast-episode-51-startup-communication-and-outreach-with-susan-gonzales/)
 communities:
   title: AI and Communities of Color
-  prose: "### McKinsey & Company \nBlacks in the fast-food, retail and customer-service
-    industries — especially those in \\\"support roles\\\" like cashiers, office clerks,
+  prose: |
+    ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
+    industries — especially those in "support roles" like cashiers, office clerks,
     stockroom laborers and call-center representatives — are most vulnerable to their
     jobs disappearing as companies invest more in labor-replacing technologies. In
     all, African-Americans are projected to lose a total of 132,000 jobs between now
     and 2030 due to automation, researchers said.  Of course, other groups are also
     under threat. Latinos could see roughly a quarter of their jobs automated out
     of existence, according to McKinsey, while Asians, whites and others will also
-    be affected.\n\n### Cities Struggle to Prepare African Americans, Latinos for
-    the Future Workforce – U.S. News, 2019\nA new study details how different cities
-    are educating and training their populations most impacted by job automation.\nDespite
-    city efforts to train their residents for workforce changes as automation threatens
-    millions of jobs, they are struggling to equip their most vulnerable populations:
-    African Americans and Latinos.\nIn a [recent study](https://www.ourmayors.org/Resources/Future-of-Work-Initiative) released
-    by the African American Mayors Association, which represents more than 500 African
-    American mayors across the U.S., researchers examined three cities – Gary, [Indiana](https://www.usnews.com/news/best-states/indiana);
-    Columbia, [South Carolina](https://www.usnews.com/news/best-states/south-carolina);
-    and Long Beach, [California](https://www.usnews.com/news/best-states/california) –
-    to see how successful they've been in preparing students and workers to succeed
-    in the changing labor market. What they found: the initiatives aren't effectively
-    reaching the populations most likely to lose their jobs to automation.\n"
+    be affected.
 
+    ### Cities Struggle to Prepare African Americans, Latinos for the Future Workforce – U.S. News, 2019
+    A new study details how different cities are educating and training their populations most impacted by job automation.
+    Despite city efforts to train their residents for workforce changes as automation threatens millions of jobs, they are struggling to equip their most vulnerable populations: African Americans and Latinos.
+    In a [recent study](https://www.ourmayors.org/Resources/Future-of-Work-Initiative) released by the African American Mayors Association, which represents more than 500 African American mayors across the U.S., researchers examined three cities – Gary, [Indiana](https://www.usnews.com/news/best-states/indiana); Columbia, [South Carolina](https://www.usnews.com/news/best-states/south-carolina); and Long Beach, [California](https://www.usnews.com/news/best-states/california) – to see how successful they've been in preparing students and workers to succeed
+    in the changing labor market. What they found: the initiatives aren't effectively reaching the populations most likely to lose their jobs to automation.
+
+    ### A biased medical algorithm favored white people for health-care programs - MIT Technology Review, Oct 25, 2019
+    A [study](https://www.technologyreview.com/f/614626/a-biased-medical-algorithm-favored-white-people-for-healthcare-programs/) has highlighted the risks inherent in using historical data to train machine-learning algorithms to make predictions.
 ---
