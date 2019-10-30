@@ -8,6 +8,7 @@ import styled from "@emotion/styled";
 import { ParallaxBanner } from "react-scroll-parallax";
 import Container from "../components/container";
 
+/** convert a markdown string from a frontmatter field into an HTML string so it can be rendered */
 function mdStringToHTML(mdString) {
   return remark()
     .use(recommended)
@@ -74,6 +75,12 @@ const SectionProse = styled.div`
     background-color: #f8f8f8;
     margin-bottom: 50px;
   }
+
+  &.intro {
+    p {
+      font-size: 18px;
+    }
+  }
 `;
 
 const MajorPoint = styled.aside`
@@ -106,7 +113,7 @@ const home = ({ data }) => {
       <Container>
         <section>
           <SectionProse
-            className="hasHighlight"
+            className="hasHighlight intro"
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.intro.section1),
             }}
