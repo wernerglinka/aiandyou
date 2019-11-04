@@ -1,4 +1,6 @@
-import React from "react";
+/* global document */
+
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import styled from "@emotion/styled";
 import { ThemeProvider } from "emotion-theming";
@@ -49,6 +51,15 @@ const Layout = ({ children }) => {
     "leadership",
     "communities",
   ];
+
+  useEffect(() => {
+    // insure that all external inks open a new tab/window
+    const allLinks = document.links;
+    for (const link of allLinks) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
