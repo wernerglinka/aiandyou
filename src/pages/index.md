@@ -13,6 +13,7 @@ intro:
     The long-term impact of AI on communities of color is unknown. Conversations about AI are absent in the communities most directly affected by automation and other AI tools.
 about:
   title: About AI and You
+  image: "/uploads/aiandyou1.jpeg"
   prose:
     "AIandYou.org is a U.S. based non-profit creating opportunities for communities
     of color and women to learn about Artificial Intelligence (AI) through local outreach,
@@ -36,6 +37,7 @@ aside1:
     2019
 mission:
   title: Mission
+  image: "/uploads/aiandyou3.jpeg"
   prose:
     "AIandYou.org is committed to educating communities of color about AI and
     supporting diverse AI leaders.  \n\nAll communities benefit from understanding
@@ -44,6 +46,7 @@ mission:
     AI affinity groups_\n"
 approach1:
   title: Approach
+  image: "/uploads/aiandyou8.jpeg"
   prose: |
     ### Train the Trainer
     AIandYou.org partners with national and local advocacy organizations to create community events including, but not limited to:
@@ -81,6 +84,7 @@ approach2: |
   - NHCSL (National Hispanic Caucus of State Legislators)
 story:
   title: The Story
+  image: "/uploads/aiandyou4.jpeg"
   prose:
     "Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility
     and Social Good teams at Facebook.  Susan experienced the positive outcomes of
@@ -111,6 +115,7 @@ leadership:
     Listen to The All Turtles Podcast Episode 51: [Startup communication and outreach with Susan Gonzales](https://www.all-turtles.com/podcast/the-all-turtles-podcast-episode-51-startup-communication-and-outreach-with-susan-gonzales/)
 communities:
   title: AI and Communities of Color
+  image: "/uploads/aiandyou6.jpeg"
   prose: |
     ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
     industries — especially those in "support roles" like cashiers, office clerks,

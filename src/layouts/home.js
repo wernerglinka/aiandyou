@@ -130,7 +130,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou1.jpeg",
+                image: pageContent.about.image,
                 amount: 0.5,
               },
             ]}
@@ -163,7 +163,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou3.jpeg",
+                image: pageContent.mission.image,
                 amount: 0.5,
               },
             ]}
@@ -184,7 +184,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou8.jpeg",
+                image: pageContent.approach1.image,
                 amount: 0.5,
               },
             ]}
@@ -224,7 +224,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou4.jpeg",
+                image: pageContent.story.image,
                 amount: 0.5,
               },
             ]}
@@ -258,7 +258,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: "/uploads/aiandyou6.jpeg",
+                image: pageContent.communities.image,
                 amount: 0.5,
               },
             ]}
@@ -300,19 +300,23 @@ export const pageQuery = graphql`
             }
             about {
               title
+              image
               prose
             }
             approach1 {
               title
+              image
               prose
             }
             approach2
             mission {
               title
+              image
               prose
             }
             story {
               title
+              image
               prose
             }
             leadership {
@@ -322,6 +326,7 @@ export const pageQuery = graphql`
             }
             communities {
               title
+              image
               prose
             }
             aside1 {
