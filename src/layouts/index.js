@@ -49,11 +49,11 @@ const Layout = ({ children }) => {
     "approach",
     "story",
     "leadership",
-    "communities",
+    "research",
   ];
 
   useEffect(() => {
-    // insure that all external inks open a new tab/window
+    // insure that all external links open a new tab/window
     const allLinks = document.links;
     for (const link of allLinks) {
       link.setAttribute("target", "_blank");

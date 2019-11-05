@@ -14,6 +14,10 @@ const Footer = () => {
   const { copyright } = useSiteMetadata();
   return (
     <SiteFooter>
+      <p>
+        For more information, please contact{" "}
+        <a href="mailto: susan@aiandyou.org">susan@aiandyou.org</a>
+      </p>
       <p>{copyright}</p>
     </SiteFooter>
   );

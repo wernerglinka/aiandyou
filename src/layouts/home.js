@@ -40,6 +40,9 @@ const SectionWithHeader = styled.section`
 `;
 
 const SectionWithImage = styled.section`
+  background-color: #f8f8f8;
+  padding: 30px 50px;
+
   .no-padding {
     padding: 0 0 50px;
   }
@@ -79,6 +82,30 @@ const SectionProse = styled.div`
   &.intro {
     p {
       font-size: 18px;
+    }
+  }
+`;
+
+const SectionBoard = styled.div`
+  margin-bottom: 50px;
+  padding: 30px 50px;
+
+  @media (max-width: 500px) {
+    padding: 10px 20px;
+  }
+
+  .members {
+    display: flex;
+    justify-content: center;
+
+    > div {
+      flex: 0 0 280px;
+      padding: 0 20px;
+    }
+
+    ul {
+      margin: 0 0 0 20px;
+      padding: 0;
     }
   }
 `;
@@ -253,12 +280,32 @@ const home = ({ data }) => {
             }}
           />
         </SectionWithImage>
-        <SectionWithHeader id="communities">
+        <SectionBoard className="hasHighlight" id="board_advisors">
+          <h1>{pageContent.board_advisors.title}</h1>
+          <h2>{pageContent.board_advisors.board.title}</h2>
+          {pageContent.board_advisors.board.members}
+
+          <h2>{pageContent.board_advisors.advisors.title}</h2>
+          <div className="members">
+            {pageContent.board_advisors.advisors.members.map(member => (
+              <div>
+                <img src={member.image} alt={member.name} />
+                <h3>{member.name}</h3>
+                <ul>
+                  {member.bio.map(item => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </SectionBoard>
+        <SectionWithHeader id="research">
           <ParallaxBanner
             className="parallax-title"
             layers={[
               {
-                image: pageContent.communities.image,
+                image: pageContent.research.image,
                 amount: 0.5,
               },
             ]}
@@ -266,11 +313,11 @@ const home = ({ data }) => {
               height: "200px",
             }}
           >
-            <h1>{pageContent.communities.title}</h1>
+            <h1>{pageContent.research.title}</h1>
           </ParallaxBanner>
           <SectionProse
             dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.communities.prose),
+              __html: mdStringToHTML(pageContent.research.prose),
             }}
           />
         </SectionWithHeader>
@@ -324,7 +371,22 @@ export const pageQuery = graphql`
               image
               prose
             }
-            communities {
+            board_advisors {
+              title
+              board {
+                title
+                members
+              }
+              advisors {
+                title
+                members {
+                  name
+                  image
+                  bio
+                }
+              }
+            }
+            research {
               title
               image
               prose
