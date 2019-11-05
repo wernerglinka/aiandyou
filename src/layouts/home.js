@@ -98,13 +98,17 @@ const SectionBoard = styled.div`
     display: flex;
     justify-content: center;
 
+    @media (max-width: 550px) {
+      display: block;
+    }
+
     > div {
       flex: 0 0 280px;
       padding: 0 20px;
     }
 
     ul {
-      margin: 0 0 0 20px;
+      margin: 0 0 20px 20px;
       padding: 0;
     }
   }
