@@ -95,7 +95,7 @@ aside2:
 
 approach2: |
   ## Engage Influencers
-  Partner with diverse local, regional, state and national influencers to host a discussion and networking events with thought leaders, influencers and related staff members. Events could include, but not limited to:
+  AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. Events could include, but not limited to:
 
   - Panel discussions and Q&A at National Conferences
   - Roundtable conversations with AI leaders
@@ -112,7 +112,7 @@ approach2: |
 
 resources:
   title: Resources
-  image: ""
+  image: "/uploads/aiandyou9.jpeg"
   prose: |
     Resources helpful for communities of color coming soon.
 

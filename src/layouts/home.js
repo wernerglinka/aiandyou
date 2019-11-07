@@ -18,9 +18,6 @@ function mdStringToHTML(mdString) {
 }
 
 const SectionWithHeader = styled.section`
-  .parallax-banner {
-    background-color: #9ed9f5;
-  }
   .parallax-inner {
     z-index: 1;
   }
