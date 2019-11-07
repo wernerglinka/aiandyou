@@ -47,7 +47,6 @@ const Layout = ({ children }) => {
     "about",
     "mission",
     "approach",
-    "webinars",
     "resources",
     "leadership",
     "research",
