@@ -110,13 +110,14 @@ approach2: |
   - NBCSL (National Black Caucus of State Legislators)
   - NHCSL (National Hispanic Caucus of State Legislators)
 
-webinars:
-  title: Webinars
-  prose: Webinars to cover topics specifically related to communities of color.
-
 resources:
   title: Resources
-  prose: Helpful resources for community members to be available.  Community focused articles, papers, research to be made available to all.
+  image: ""
+  prose: |
+    Resources helpful for communities of color coming soon.
+
+    ### Webinars
+    Webinars focused on key issues impacting communities of color coming soon.
 
 leadership:
   title: Leadership

@@ -18,6 +18,9 @@ function mdStringToHTML(mdString) {
 }
 
 const SectionWithHeader = styled.section`
+  .parallax-banner {
+    background-color: #9ed9f5;
+  }
   .parallax-inner {
     z-index: 1;
   }
@@ -278,27 +281,29 @@ const home = ({ data }) => {
           />
         </section>
 
-        {/* Webinars */}
-
-        <SectionBlank id="webinars">
-          <h1>{pageContent.webinars.title}</h1>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.webinars.prose),
-            }}
-          />
-        </SectionBlank>
-
         {/* Resources */}
 
-        <SectionBlank id="resources">
-          <h1>{pageContent.resources.title}</h1>
-          <p
+        <SectionWithHeader id="resources">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.resources.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.resources.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.resources.prose),
             }}
           />
-        </SectionBlank>
+        </SectionWithHeader>
 
         {/* Leadership */}
 
@@ -402,12 +407,9 @@ export const pageQuery = graphql`
               image
               prose
             }
-            webinars {
-              title
-              prose
-            }
             resources {
               title
+              image
               prose
             }
             leadership {
