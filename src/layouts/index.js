@@ -43,14 +43,7 @@ const ToTop = styled.button`
 const Layout = ({ children }) => {
   const siteMetadata = useSiteMetadata();
   const toTopIsVisible = useToTop();
-  const targets = [
-    "about",
-    "mission",
-    "approach",
-    "story",
-    "leadership",
-    "research",
-  ];
+  const targets = ["about", "mission", "approach", "leadership", "research"];
 
   useEffect(() => {
     // insure that all external links open a new tab/window

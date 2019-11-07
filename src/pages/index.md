@@ -40,12 +40,13 @@ about:
     - and many other topics
 
     AIandYou.org is committed to educating communities of color about AI and supporting diverse AI leaders.
+
     All communities benefit from understanding more about AI and…
     - its social good impact
     - automation preparation
     - long term challenges and opportunities
 
-    A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women In Maching Learning (WiML), Queer in AI)
+    _A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women In Maching Learning (WiML), Queer in AI)_
 
 aside1:
   prose: |
@@ -95,6 +96,7 @@ aside2:
 approach2: |
   ## Engage Influencers
   Partner with diverse local, regional, state and national influencers to host a discussion and networking events with thought leaders, influencers and related staff members. Events could include, but not limited to:
+
   - Panel discussions and Q&A at National Conferences
   - Roundtable conversations with AI leaders
   - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
@@ -108,17 +110,22 @@ approach2: |
   - NBCSL (National Black Caucus of State Legislators)
   - NHCSL (National Hispanic Caucus of State Legislators)
 
-story:
-  title: The Story
-  image: "/uploads/aiandyou4.jpeg"
-  prose: Susan Gonzales, CEO, worked closely with AI engineers on the Accessibility and Social Good teams at Facebook. Susan experienced the positive outcomes of AI through this work. She continued to explore AI and continued to see its social good purposes and its unintended bias of AI. Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. She realized there is a wealth of information about AI and should be shared with communities of color for the good of all. Susan launched AIandyou.org educate communities of color about all aspects of AI. Click [here](https://www.facebook.com/nipsfoundation/videos/284660435523814/) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural-Processing Information Systems (NeurIPS) AI Global Conference
+webinars:
+  title: Webinars
+  prose: Webinars to cover topics specifically related to communities of color.
+
+resources:
+  title: Resources
+  prose: Helpful resources for community members to be available.  Community focused articles, papers, research to be made available to all.
 
 leadership:
   title: Leadership
   image: "/uploads/susan-gonzales.jpg"
   prose: |
-    ### Susan Gonzales, CEO
-    Susan has served in community engagement and communications roles for companies and public relations firms. She has served as a community representative and spokesperson for organizations including Facebook, Comcast, Levi Strauss & Co. Susan has been responsible for creating community outreach teams and investing in the community. She is known as a leader in the Latinx community based on her work in Washington, D.C. and Silicon Valley. Susan is an outdoor enthusiast and lives in the Bay Area of California. She currently serves as Advisor Board Member to:
+    ### Susan Gonzales, Founder and CEO
+    Susan brings years of experience leading community engagement and communications for companies including Facebook, Comcast, Levi Strauss & Co. She has successfully created global community engagement and education programs involving national advocacy leaders and local community representatives.  Susan has created a wide network of relationships with diverse community leaders throughout the U.S. and has created opportunities for the community through building strong partnerships.  Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/nipsfoundation/videos/284660435523814/) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural-Processing Information Systems (NeurIPS) AI Global Conference.
+
+    Susan is a mentor to Latinx student and serves on the Board of community-based organizations.  She is an outdoor enthusiast and lives in the Bay Area of California. She currently serves as Advisor Board Member to:
     - Dave Goldberg and Sheryl Sandberg Foundation and LeanIn.org
     - Eva Longoria Foundation
     - The Latina Collective
@@ -157,6 +164,8 @@ research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"
   prose: |
+    Articles and other relevant information available to all.
+
     ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
     industries — especially those in "support roles" like cashiers, office clerks,
     stockroom laborers and call-center representatives — are most vulnerable to their

@@ -40,7 +40,7 @@ const SectionWithHeader = styled.section`
 `;
 
 const SectionWithImage = styled.section`
-  background-color: #f8f8f8;
+  background-color: #9ed9f5;
   padding: 30px 50px;
 
   .no-padding {
@@ -75,7 +75,7 @@ const SectionProse = styled.div`
   }
 
   &.hasHighlight {
-    background-color: #f8f8f8;
+    background-color: #9ed9f5;
     margin-bottom: 50px;
   }
 
@@ -86,7 +86,16 @@ const SectionProse = styled.div`
   }
 `;
 
-const SectionBoard = styled.div`
+const SectionBlank = styled.section`
+  margin-bottom: 50px;
+  padding: 30px 50px;
+
+  @media (max-width: 500px) {
+    padding: 10px 20px;
+  }
+`;
+
+const SectionBoard = styled.section`
   margin-bottom: 50px;
   padding: 30px 50px;
 
@@ -116,7 +125,7 @@ const SectionBoard = styled.div`
 
 const MajorPoint = styled.aside`
   margin: 50px 0;
-  background-color: #f8f8f8;
+  background-color: #9ed9f5;
   padding: 50px;
 `;
 
@@ -142,6 +151,8 @@ const home = ({ data }) => {
   return (
     <>
       <Container>
+        {/* Introduction */}
+
         <section>
           <SectionProse
             className="hasHighlight intro"
@@ -156,6 +167,9 @@ const home = ({ data }) => {
             }}
           />
         </section>
+
+        {/* About */}
+
         <SectionWithHeader id="about">
           <ParallaxBanner
             className="parallax-title"
@@ -180,6 +194,8 @@ const home = ({ data }) => {
       </Container>
       <MajorPoint>
         <Container>
+          {/* Quote */}
+
           <Quote>
             <p>{pageContent.aside1.prose}</p>
             <footer>
@@ -189,6 +205,8 @@ const home = ({ data }) => {
         </Container>
       </MajorPoint>
       <Container>
+        {/* Mission */}
+
         <SectionWithHeader id="mission">
           <ParallaxBanner
             className="parallax-title"
@@ -210,6 +228,9 @@ const home = ({ data }) => {
             }}
           />
         </SectionWithHeader>
+
+        {/* Approach */}
+
         <SectionWithHeader id="approach">
           <ParallaxBanner
             className="parallax-title"
@@ -232,6 +253,9 @@ const home = ({ data }) => {
           />
         </SectionWithHeader>
       </Container>
+
+      {/* Quote */}
+
       <MajorPoint>
         <Container>
           <Quote>
@@ -242,6 +266,9 @@ const home = ({ data }) => {
           </Quote>
         </Container>
       </MajorPoint>
+
+      {/* Second part of Approach */}
+
       <Container>
         <section>
           <SectionProse
@@ -250,27 +277,31 @@ const home = ({ data }) => {
             }}
           />
         </section>
-        <SectionWithHeader id="story">
-          <ParallaxBanner
-            className="parallax-title"
-            layers={[
-              {
-                image: pageContent.story.image,
-                amount: 0.5,
-              },
-            ]}
-            style={{
-              height: "200px",
-            }}
-          >
-            <h1>{pageContent.story.title}</h1>
-          </ParallaxBanner>
-          <SectionProse
+
+        {/* Webinars */}
+
+        <SectionBlank>
+          <h1>{pageContent.webinars.title}</h1>
+          <p
             dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.story.prose),
+              __html: mdStringToHTML(pageContent.webinars.prose),
             }}
           />
-        </SectionWithHeader>
+        </SectionBlank>
+
+        {/* Resources */}
+
+        <SectionBlank>
+          <h1>{pageContent.resources.title}</h1>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.resources.prose),
+            }}
+          />
+        </SectionBlank>
+
+        {/* Leadership */}
+
         <SectionWithImage id="leadership">
           <h1>{pageContent.leadership.title}</h1>
           <img
@@ -284,6 +315,9 @@ const home = ({ data }) => {
             }}
           />
         </SectionWithImage>
+
+        {/* Board and Advisors */}
+
         <SectionBoard className="hasHighlight" id="board_advisors">
           <h1>{pageContent.board_advisors.title}</h1>
           <h2>{pageContent.board_advisors.board.title}</h2>
@@ -304,6 +338,9 @@ const home = ({ data }) => {
             ))}
           </div>
         </SectionBoard>
+
+        {/* Research */}
+
         <SectionWithHeader id="research">
           <ParallaxBanner
             className="parallax-title"
@@ -365,9 +402,12 @@ export const pageQuery = graphql`
               image
               prose
             }
-            story {
+            webinars {
               title
-              image
+              prose
+            }
+            resources {
+              title
               prose
             }
             leadership {
