@@ -280,7 +280,7 @@ const home = ({ data }) => {
 
         {/* Webinars */}
 
-        <SectionBlank>
+        <SectionBlank id="webinars">
           <h1>{pageContent.webinars.title}</h1>
           <p
             dangerouslySetInnerHTML={{
@@ -291,7 +291,7 @@ const home = ({ data }) => {
 
         {/* Resources */}
 
-        <SectionBlank>
+        <SectionBlank id="resources">
           <h1>{pageContent.resources.title}</h1>
           <p
             dangerouslySetInnerHTML={{
