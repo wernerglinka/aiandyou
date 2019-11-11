@@ -161,6 +161,17 @@ board_advisors:
           - Assistant Professor, Statistical Science, Duke University
           - Diversity Co-Chair, NeurIPS
           - Senior Advisory Board Member, Women in Machine Learning (WiML)
+
+      - name: Nicole DeLeon
+        image: /uploads/advisors/nicole-deleon.jpg
+        bio:
+          - "Nicole is an attorney with in-depth knowledge of partnerships and strategic planning.  She is well versed in community based organizations and program execution."
+
+      - name: Lisa Simms Booth
+        image: /uploads/advisors/lisa-simms-booth.jpg
+        bio:
+          - "Lisa has worked in the non-profit sector for over twenty years in a variety of roles including external relations, operations, strategic partnerships and event coordination. Most recently, she worked in the health and medical sector at the Biden Cancer Initiative and FasterCures, a center of the Milken Institute"
+
 research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"

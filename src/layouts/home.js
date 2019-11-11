@@ -43,6 +43,10 @@ const SectionWithImage = styled.section`
   background-color: #9ed9f5;
   padding: 30px 50px;
 
+  @media (max-width: 500px) {
+    padding: 10px 20px;
+  }
+
   .no-padding {
     padding: 0 0 50px;
   }
@@ -106,14 +110,34 @@ const SectionBoard = styled.section`
   .members {
     display: flex;
     justify-content: center;
+    margin: 0 -50px;
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap;
+    }
 
     @media (max-width: 550px) {
       display: block;
+      margin: 0;
     }
 
     > div {
-      flex: 0 0 280px;
+      max-width: 280px;
+      flex: 0 0 25%;
       padding: 0 20px;
+
+      @media (max-width: 767px) {
+        flex: 0 0 50%;
+      }
+
+      @media (max-width: 550px) {
+        margin: 0 auto;
+      }
+
+      img {
+        border: 1px solid #f0f0f0;
+        border-radius: 50%;
+      }
     }
 
     ul {
@@ -127,6 +151,10 @@ const MajorPoint = styled.aside`
   margin: 50px 0;
   background-color: #9ed9f5;
   padding: 50px;
+
+  @media (max-width: 500px) {
+    padding: 10px 20px;
+  }
 `;
 
 const Quote = styled.blockquote`
@@ -328,12 +356,12 @@ const home = ({ data }) => {
           <h2>{pageContent.board_advisors.advisors.title}</h2>
           <div className="members">
             {pageContent.board_advisors.advisors.members.map(member => (
-              <div>
+              <div key={member.name}>
                 <img src={member.image} alt={member.name} />
                 <h3>{member.name}</h3>
                 <ul>
                   {member.bio.map(item => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>
