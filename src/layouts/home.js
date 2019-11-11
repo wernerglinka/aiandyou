@@ -345,8 +345,7 @@ const home = ({ data }) => {
         {/* Board and Advisors */}
 
         <SectionBoard className="hasHighlight" id="board_advisors">
-          <h1>{pageContent.board_advisors.title}</h1>
-
+          <h2>{pageContent.board_advisors.board.title}</h2>
           <div className="members">
             {pageContent.board_advisors.board.members.map(member => (
               <div key={member.name}>
