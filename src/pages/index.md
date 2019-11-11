@@ -5,8 +5,6 @@ heading: home page heading
 
 intro:
   section1: |
-    “_The new tools of our oppression_”, is one way the world's top researchers and industry leaders have described the threat that artificial intelligence poses to humankind.
-
     From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their neighborhoods?
   image: "/uploads/aiandyou5.jpeg"
   section2: |-
