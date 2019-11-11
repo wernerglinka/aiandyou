@@ -85,7 +85,7 @@ const SectionProse = styled.div`
 
   &.intro {
     p {
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 `;
@@ -123,12 +123,8 @@ const SectionBoard = styled.section`
 
     > div {
       max-width: 280px;
-      flex: 0 0 25%;
+      flex: 0 0 40%;
       padding: 0 20px;
-
-      @media (max-width: 767px) {
-        flex: 0 0 50%;
-      }
 
       @media (max-width: 550px) {
         margin: 0 auto;
@@ -350,8 +346,17 @@ const home = ({ data }) => {
 
         <SectionBoard className="hasHighlight" id="board_advisors">
           <h1>{pageContent.board_advisors.title}</h1>
-          <h2>{pageContent.board_advisors.board.title}</h2>
-          {pageContent.board_advisors.board.members}
+
+          <div className="members">
+            {pageContent.board_advisors.board.members.map(member => (
+              <div key={member.name}>
+                {console.log(member)}
+                <img src={member.image} alt={member.name} />
+                <h3>{member.name}</h3>
+                <p>{member.bio}</p>
+              </div>
+            ))}
+          </div>
 
           <h2>{pageContent.board_advisors.advisors.title}</h2>
           <div className="members">
@@ -446,7 +451,11 @@ export const pageQuery = graphql`
               title
               board {
                 title
-                members
+                members {
+                  name
+                  image
+                  bio
+                }
               }
               advisors {
                 title

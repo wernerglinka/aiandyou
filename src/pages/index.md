@@ -5,7 +5,7 @@ heading: home page heading
 
 intro:
   section1: |
-    From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their neighborhoods?
+    _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their neighborhoods?_
   image: "/uploads/aiandyou5.jpeg"
   section2: |-
     While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears —though realistic — can be managed through education and dialogue.
@@ -110,7 +110,7 @@ approach2: |
 
 resources:
   title: Resources
-  image: "/uploads/aiandyou9.jpeg"
+  image: "/uploads/aiandyou9a.jpg"
   prose: |
     Resources helpful for communities of color coming soon.
 
@@ -140,7 +140,16 @@ board_advisors:
 
   board:
     title: Board Members
-    members: (coming soon)
+    members:
+      - name: Nicole DeLeon
+        image: /uploads/advisors/nicole-deleon.jpg
+        bio: |
+          Nicole is an attorney with in-depth knowledge of partnerships and strategic planning.  She is well versed in community based organizations and program execution.
+
+      - name: Lisa Simms Booth
+        image: /uploads/advisors/lisa-simms-booth.jpg
+        bio: |
+          Lisa has worked in the non-profit sector for over twenty years in a variety of roles including external relations, operations, strategic partnerships and event coordination. Most recently, she worked in the health and medical sector at the Biden Cancer Initiative and FasterCures, a center of the Milken Institute
 
   advisors:
     title: Advisors
@@ -159,16 +168,6 @@ board_advisors:
           - Assistant Professor, Statistical Science, Duke University
           - Diversity Co-Chair, NeurIPS
           - Senior Advisory Board Member, Women in Machine Learning (WiML)
-
-      - name: Nicole DeLeon
-        image: /uploads/advisors/nicole-deleon.jpg
-        bio:
-          - "Nicole is an attorney with in-depth knowledge of partnerships and strategic planning.  She is well versed in community based organizations and program execution."
-
-      - name: Lisa Simms Booth
-        image: /uploads/advisors/lisa-simms-booth.jpg
-        bio:
-          - "Lisa has worked in the non-profit sector for over twenty years in a variety of roles including external relations, operations, strategic partnerships and event coordination. Most recently, she worked in the health and medical sector at the Biden Cancer Initiative and FasterCures, a center of the Milken Institute"
 
 research:
   title: Research
