@@ -140,6 +140,7 @@ board_advisors:
 
   board:
     title: Board Members
+    temp: Coming Soon
     members:
       - name: Nicole DeLeon
         image: /uploads/advisors/nicole-deleon.jpg
@@ -169,6 +170,12 @@ board_advisors:
           - Diversity Co-Chair, NeurIPS
           - Senior Advisory Board Member, Women in Machine Learning (WiML)
 
+      - name: Rick Sommer
+        image: /uploads/advisors/rick-sommer.jpg
+        bio:
+          - Executive Director, Intercollegiate Studies, Stanford University
+          - Co-Founder, AI-4-ALL
+          - Rick is a leader in higher education specializing in pre-collegiate programs. Background in program development and administration with expertise in designing outreach and enrichment programs. Over 20 years of experience in admissions, STEM curriculum, residential education, diversity and inclusion, international and multicultural education, and administration of programs for minors.
 research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"

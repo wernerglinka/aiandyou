@@ -346,16 +346,7 @@ const home = ({ data }) => {
 
         <SectionBoard className="hasHighlight" id="board_advisors">
           <h2>{pageContent.board_advisors.board.title}</h2>
-          <div className="members">
-            {pageContent.board_advisors.board.members.map(member => (
-              <div key={member.name}>
-                {console.log(member)}
-                <img src={member.image} alt={member.name} />
-                <h3>{member.name}</h3>
-                <p>{member.bio}</p>
-              </div>
-            ))}
-          </div>
+          <p>{pageContent.board_advisors.board.temp}</p>
 
           <h2>{pageContent.board_advisors.advisors.title}</h2>
           <div className="members">
@@ -450,11 +441,7 @@ export const pageQuery = graphql`
               title
               board {
                 title
-                members {
-                  name
-                  image
-                  bio
-                }
+                temp
               }
               advisors {
                 title
