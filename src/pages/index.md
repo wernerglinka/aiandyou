@@ -108,6 +108,12 @@ approach2: |
   - NBCSL (National Black Caucus of State Legislators)
   - NHCSL (National Hispanic Caucus of State Legislators)
 
+  ## Activate Educators
+  - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
+  - Amplify AI and Robotics as a subset of computer science in classrooms
+  - Provide 3rd party AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
+  - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
+
 resources:
   title: Resources
   image: "/uploads/aiandyou9a.jpg"
