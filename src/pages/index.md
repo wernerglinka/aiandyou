@@ -186,6 +186,9 @@ research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"
   prose: |
+    > "Despite these challenges, there are clear opportunities for artificial intelligence technology to help solve the transportation issues that have negatively impacted low-income communities and communities of color for generations."
+
+
     Articles and other relevant information available to all.
 
     ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
@@ -206,4 +209,10 @@ research:
 
     ### A biased medical algorithm favored white people for health-care programs - MIT Technology Review, Oct 25, 2019
     A [study](https://www.technologyreview.com/f/614626/a-biased-medical-algorithm-favored-white-people-for-healthcare-programs/) has highlighted the risks inherent in using historical data to train machine-learning algorithms to make predictions.
+
+    ### A PolicyLink blog post
+    [Equity, Artificial Intelligence, and Transportation](https://www.policylink.org/blog/equity-ai-transportation)
+
+    ### A Medium post by Marianna Elvira
+    [Artificial Intelligence Impact on Communities of Color](https://medium.com/@NHMC/artificial-intelligence-impact-on-communities-of-color-7d49dfd121d6)
 ---
