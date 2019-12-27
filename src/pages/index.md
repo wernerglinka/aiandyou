@@ -18,9 +18,9 @@ about:
     AIandYou.org is a U.S. based non-profit creating opportunities for under-represented communities of color to learn about Artificial Intelligence (AI). AIandYou.org is the platform for the science community and under-represented communities of color to have a dialogue about AI opportunities, and explore the challenges impacting everyday lives.
 
     The AIandYou.org platform is created through: 
-    - Community and educator Outreach 
-    - Research specific to under-represented communities of color
-    - Resources for community leaders and educators
+    - Community and educator **Outreach** 
+    - **Research** specific to under-represented communities of color
+    - **Resources** for community leaders and educators
 
     Participants include scientists, researchers and engineers from:
     - LatinX in AI
