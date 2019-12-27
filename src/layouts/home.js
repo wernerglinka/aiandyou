@@ -7,6 +7,7 @@ import remarkHtml from "remark-html";
 import styled from "@emotion/styled";
 import { ParallaxBanner } from "react-scroll-parallax";
 import Container from "../components/container";
+import BoardMember from "./board-member";
 
 /** convert a markdown string from a frontmatter field into an HTML string so it can be rendered */
 function mdStringToHTML(mdString) {
@@ -42,6 +43,7 @@ const SectionWithHeader = styled.section`
 const SectionWithImage = styled.section`
   background-color: #9ed9f5;
   padding: 30px 50px;
+  margin-bottom: 50px;
 
   @media (max-width: 500px) {
     padding: 10px 20px;
@@ -110,11 +112,8 @@ const SectionBoard = styled.section`
   .members {
     display: flex;
     justify-content: center;
-    margin: 0 -50px;
-
-    @media (max-width: 767px) {
-      flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+    margin: 0 -50px 50px;
 
     @media (max-width: 550px) {
       display: block;
@@ -124,7 +123,8 @@ const SectionBoard = styled.section`
     > div {
       max-width: 280px;
       flex: 0 0 40%;
-      padding: 0 20px;
+      padding: 0 20px 50px;
+      text-align: center;
 
       @media (max-width: 550px) {
         margin: 0 auto;
@@ -133,6 +133,21 @@ const SectionBoard = styled.section`
       img {
         border: 1px solid #f0f0f0;
         border-radius: 50%;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      button {
+        border: 1px solid #9ed9f5;
+        background: none;
+        padding: 5px 20px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f8f8f8;
+        }
       }
     }
 
@@ -271,11 +286,23 @@ const home = ({ data }) => {
             <h1>{pageContent.approach1.title}</h1>
           </ParallaxBanner>
           <SectionProse
+            style={{ paddingBottom: 0 }}
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.approach1.prose),
             }}
           />
         </SectionWithHeader>
+
+        {/* Second part of Approach */}
+
+        <section>
+          <SectionProse
+            style={{ paddingTop: 0 }}
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.approach2),
+            }}
+          />
+        </section>
       </Container>
 
       {/* Quote */}
@@ -291,17 +318,7 @@ const home = ({ data }) => {
         </Container>
       </MajorPoint>
 
-      {/* Second part of Approach */}
-
       <Container>
-        <section>
-          <SectionProse
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.approach2),
-            }}
-          />
-        </section>
-
         {/* Resources */}
 
         <SectionWithHeader id="resources">
@@ -346,20 +363,16 @@ const home = ({ data }) => {
 
         <SectionBoard className="hasHighlight" id="board_advisors">
           <h2>{pageContent.board_advisors.board.title}</h2>
-          <p>{pageContent.board_advisors.board.temp}</p>
+          <div className="members">
+            {pageContent.board_advisors.board.members.map(member => (
+              <BoardMember member={member} key={member.name} />
+            ))}
+          </div>
 
           <h2>{pageContent.board_advisors.advisors.title}</h2>
           <div className="members">
             {pageContent.board_advisors.advisors.members.map(member => (
-              <div key={member.name}>
-                <img src={member.image} alt={member.name} />
-                <h3>{member.name}</h3>
-                <ul>
-                  {member.bio.map(item => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+              <BoardMember member={member} key={member.name} />
             ))}
           </div>
         </SectionBoard>
@@ -441,7 +454,11 @@ export const pageQuery = graphql`
               title
               board {
                 title
-                temp
+                members {
+                  name
+                  image
+                  bio
+                }
               }
               advisors {
                 title

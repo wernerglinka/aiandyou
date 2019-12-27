@@ -5,7 +5,7 @@ heading: home page heading
 
 intro:
   section1: |
-    _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their neighborhoods?_
+    _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their lives?_
   image: "/uploads/aiandyou5.jpeg"
   section2: |-
     While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears —though realistic — can be managed through education and dialogue.
@@ -15,10 +15,14 @@ about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for communities of color and women to learn about Artificial Intelligence (AI) through local outreach, informative gatherings, conversations and on-going communications with diverse AI leaders and others in the field.
+    AIandYou.org is a U.S. based non-profit creating opportunities for under-represented communities of color to learn about Artificial Intelligence (AI). AIandYou.org is the platform for the science community and under-represented communities of color to have a dialogue about AI opportunities, and explore the challenges impacting everyday lives.
 
-    The AIandYou.org team creates AI educational events in partnership with global AI leaders, diverse thought leaders and community advocacy organizations. Participants include scientists, researchers and engineers from:
+    The AIandYou.org platform is created through: 
+    - Community and educator Outreach 
+    - Research specific to under-represented communities of color
+    - Resources for community leaders and educators
 
+    Participants include scientists, researchers and engineers from:
     - LatinX in AI
     - Black in AI
     - Queer in AI
@@ -37,14 +41,12 @@ about:
     - AI and autonomous vehicles
     - and many other topics
 
-    AIandYou.org is committed to educating communities of color about AI and supporting diverse AI leaders.
-
     All communities benefit from understanding more about AI and…
     - its social good impact
     - automation preparation
     - long term challenges and opportunities
 
-    _A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women In Maching Learning (WiML), Queer in AI)_
+    _A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women in Machine Learning (WiML), Queer in AI)._
 
 aside1:
   prose: |
@@ -57,12 +59,12 @@ aside1:
 mission:
   title: Mission
   image: "/uploads/aiandyou3.jpeg"
-  prose:
-    "AIandYou.org is committed to educating communities of color about AI and
-    supporting diverse AI leaders.  \n\nAll communities benefit from understanding
-    more about AI and… \n\n- its social good impact\n- automation preparation\n- long
-    term challenges and opportunities \n\n_A portion of proceeds is donated to participating
-    AI affinity groups_\n"
+  prose: |
+    AIandYou.org is committed to serving as the primary resource for under-represented communities of color to learn about AI.
+    All communities benefit from understanding more about AI and…
+    - its social good impact
+    - automation preparation
+    - long term challenges and opportunities
 
 approach1:
   title: Approach
@@ -83,13 +85,6 @@ approach1:
     - Rainbow PUSH Coalition
     - UNIDOS US
     - YWCA
-
-aside2:
-  prose:
-    African Americans stand to lose thousands jobs to automation in some of the
-    nation's largest cities over the next decade, according to new research from McKinsey
-    & Co.
-  attribution: CBSNews, 10/2019
 
 approach2: |
   ## Engage Influencers
@@ -114,6 +109,13 @@ approach2: |
   - Provide 3rd party AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
   - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
 
+aside2:
+  prose:
+    African Americans stand to lose thousands jobs to automation in some of the
+    nation's largest cities over the next decade, according to new research from McKinsey
+    & Co.
+  attribution: CBSNews, 10/2019
+
 resources:
   title: Resources
   image: "/uploads/aiandyou9a.jpg"
@@ -135,7 +137,7 @@ leadership:
     - Eva Longoria Foundation
     - The Latina Collective
 
-    Read the Forbes article on [how Susan pitched her role at Facebook](https://www.forbes.com/sites/viviannunez/2019/04/23/susan-gonzales-on-how-she-pitched-her-role-at-facebook-and-why-shes-now-focusing-on-diversity-in-ai-latina/#3aad93b21536)
+    Read the Forbes article on [how Susan pitched her role at Facebook](https://www.forbes.com/sites/viviannunez/2019/04/23/susan-gonzales-on-how-she-pitched-her-role-at-facebook-and-why-shes-now-focusing-on-diversity-in-ai-latina/#3aad93b21536) and why she is committed to AI education.
 
     Read Huffington Post [Why I Followed My Personal Calling, Even When It Led Away From A Great Job](https://www.huffpost.com/entry/leaving-a-great-job_b_12592768) to learn about Susan's motivation.
 
@@ -146,51 +148,67 @@ board_advisors:
 
   board:
     title: Board Members
-    temp: Coming Soon
     members:
+      - name: Eva Longoria
+        image: /uploads/board/eva-longoria.jpg
+        bio: |
+          Eva Longoria is an award-winning actor, producer, director, entrepreneur, philanthropist and “Desperate Housewives” alumna.  She founded the Eva Longoria Foundation in 2012 to help Latinas build better futures for themselves and their families through education and entrepreneurship. 
+
+          A pillar in the Latino community, Eva sits on the boards of the Mexican American Legal Defense Fund (MALDEF) and La Plaza de Cultura y Artes. She was named “Philanthropist of the Year” by The Hollywood Reporter and honored with a Lifetime Achievement Award at Variety’s annual Power of Women Luncheon.
+
+          In the leadup to the 2012 election, Eva and Henry Muñoz founded the Futuro Fund and the Latino Victory Project, to ensure that Latino voices in critical states and nationwide were being heard. She served as National Co-Chair for President Obama’s 2012 re-election campaign and as a Co-Chair of the 2013 Presidential Inauguration Committee. Eva spoke at the 2016 Democratic National Convention in Philadelphia.
+
+          Her entrepreneurial activities include serving as a Global Brand Ambassador for L’Oreal Paris, CEO of UnbeliEVAble Entertainment, fragrances EVA and EVAmour, a New York Times-bestselling cookbook Eva’s Kitchen, and a home collection line with JCPenney. Eva received her master’s degree in Chicano Studies from California State University, Northridge, writing her thesis on “Success STEMS from Diversity: The Value of Latinas in STEM Careers.”
+
+      - name: Alicia Aguirre
+        image: /uploads/board/alicia-aguirre.jpg
+        bio: |
+          Alicia C. Aguirre is an elected member of the City Council in the City of Redwood City where she has served as both Vice Mayor and Mayor.  She is the first Latina Mayor in the history of Redwood City. She also served as a Trustee and the President of the Redwood City Elementary School Board prior to joining the City Council.  Alicia is a professor at Cañada College, STEM leader and Coordinator of the ESL Dept.  She holds an M.A. from Eastern Michigan University. She was a Fulbright Exchange Professor in Argentina.
+
       - name: Nicole DeLeon
         image: /uploads/advisors/nicole-deleon.jpg
         bio: |
-          Nicole is an attorney with in-depth knowledge of partnerships and strategic planning.  She is well versed in community based organizations and program execution.
-
-      - name: Lisa Simms Booth
-        image: /uploads/advisors/lisa-simms-booth.jpg
-        bio: |
-          Lisa has worked in the non-profit sector for over twenty years in a variety of roles including external relations, operations, strategic partnerships and event coordination. Most recently, she worked in the health and medical sector at the Biden Cancer Initiative and FasterCures, a center of the Milken Institute
+          Nicole is an attorney in Seattle specializing in real estate development.  Nicole provides insight and guidance regarding how to interpret local regulations and State statutes.  Nicole also puts her legal skills to work in her community and provides pro bono legal services through the Northwest Immigrant Rights Project where she works with asylum seekers throughout the asylum process.  A graduate of UC Berkeley (with honors) and Seattle University of Law School (with honors).
 
   advisors:
     title: Advisors
     members:
+      - name: Joaquin Quiñonero Candela
+        image: /uploads/advisors/joaquin-quinonero-candela.jpg
+        bio: |
+          Joaquin is a Director of Engineering in AI at Facebook. He built the AML (Applied Machine Learning) team, driving product impact at scale through applied research in machine learning, language understanding, computer vision, computational photography, augmented reality, and other AI disciplines. AML also built the unified AI platform that powers all production applications of AI across the family of Facebook products. Joaquin is now focused on new AI challenges, including the ethics of AI.
+
       - name: Hal Daumé III
         image: /uploads/advisors/hal-daume.jpg
-        bio:
+        bio: |
           - Professor of Computer Science, University of Maryland
           - Senior Principal Researcher, Microsoft, Research
           - Program Co-chair, International Conference on Machine Learning (ICML) 2020
 
       - name: Katherine Heller
         image: /uploads/advisors/katherine-heller.jpg
-        bio:
+        bio: |
           - Google, Research Scientist
           - Assistant Professor, Statistical Science, Duke University
           - Diversity Co-Chair, NeurIPS
           - Senior Advisory Board Member, Women in Machine Learning (WiML)
 
+      - name: Brandeis Marshall
+        image: /uploads/advisors/brandeis-marshall.jpg
+        bio: |
+          Brandeis Marshall, PhD is a computer science scholar and educator who contributes to the data engineering, data science, and data/computer science education fields. Her interests intersect the racial, gendered and socioeconomic impact of data in technology. She is currently Professor of Computer Science at Spelman College and faculty associate at the Berkman Klein Center for Internet & Society at Harvard University. She is also the founder of DataedX, an edtech company focused on enhancing the workforce’s data competencies and supporting career development.
+
       - name: Rick Sommer
         image: /uploads/advisors/rick-sommer.jpg
-        bio:
+        bio: |
           - Executive Director, Intercollegiate Studies, Stanford University
           - Co-Founder, AI-4-ALL
-          - Rick is a leader in higher education specializing in pre-collegiate programs. Background in program development and administration with expertise in designing outreach and enrichment programs. Over 20 years of experience in admissions, STEM curriculum, residential education, diversity and inclusion, international and multicultural education, and administration of programs for minors.
+
+          Rick is a leader in higher education specializing in pre-collegiate programs. Over 20 years of experience in admissions, STEM curriculum, residential education, diversity and inclusion, international and multicultural education, and administration of programs for minors.
 research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"
   prose: |
-    > "Despite these challenges, there are clear opportunities for artificial intelligence technology to help solve the transportation issues that have negatively impacted low-income communities and communities of color for generations."
-
-
-    Articles and other relevant information available to all.
-
     ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
     industries — especially those in "support roles" like cashiers, office clerks,
     stockroom laborers and call-center representatives — are most vulnerable to their

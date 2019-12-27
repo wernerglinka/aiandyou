@@ -14,6 +14,10 @@ body {
   font-family: "Roboto", "Open Sans", Helvetica, san-serif;
   font-weight: 300;
   line-height: 1.4;
+
+  &.modal-is-active {
+    overflow: hidden;
+  }
 }
 ul,
 li {
