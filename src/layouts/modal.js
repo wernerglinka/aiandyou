@@ -26,11 +26,11 @@ const Overlay = styled.div`
 `;
 
 const ModalContent = styled.div`
-  position: absolute;
-  top: 0;
   width: 100%;
+  max-width: 800px;
   height: 100%;
   padding: 70px 100px;
+  margin: 0 auto;
   background-color: #fff;
   overflow: scroll;
 
