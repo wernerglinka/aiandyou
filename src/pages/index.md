@@ -41,11 +41,6 @@ about:
     - AI and autonomous vehicles
     - and many other topics
 
-    All communities benefit from understanding more about AI and…
-    - its social good impact
-    - automation preparation
-    - long term challenges and opportunities
-
     _A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women in Machine Learning (WiML), Queer in AI)._
 
 aside1:
@@ -70,7 +65,7 @@ approach1:
   title: Approach
   image: "/uploads/aiandyou8.jpeg"
   prose: |
-    ## Train the Trainer
+    ## Create the Dialogue
     AIandYou.org partners with national and local advocacy organizations to create community events including, but not limited to:
     - Panel discussions and Q&A at National and Regional Conferences
     - Roundtable conversations with AI leaders
@@ -174,11 +169,13 @@ board_advisors:
     title: Advisors
     members:
       - name: Joaquin Quiñonero Candela
+        position: Director of Engineering for Applied Machine Learning, Facebook
         image: /uploads/advisors/joaquin-quinonero-candela.jpg
         bio: |
           Joaquin is a Director of Engineering in AI at Facebook. He built the AML (Applied Machine Learning) team, driving product impact at scale through applied research in machine learning, language understanding, computer vision, computational photography, augmented reality, and other AI disciplines. AML also built the unified AI platform that powers all production applications of AI across the family of Facebook products. Joaquin is now focused on new AI challenges, including the ethics of AI.
 
       - name: Hal Daumé III
+        position: Professor of Computer Science, University of Maryland
         image: /uploads/advisors/hal-daume.jpg
         bio: |
           - Professor of Computer Science, University of Maryland
@@ -186,6 +183,7 @@ board_advisors:
           - Program Co-chair, International Conference on Machine Learning (ICML) 2020
 
       - name: Katherine Heller
+        position: Research Scientist, Google
         image: /uploads/advisors/katherine-heller.jpg
         bio: |
           - Google, Research Scientist
@@ -194,11 +192,13 @@ board_advisors:
           - Senior Advisory Board Member, Women in Machine Learning (WiML)
 
       - name: Brandeis Marshall
+        position: Professor of Computer Science, Spelman College
         image: /uploads/advisors/brandeis-marshall.jpg
         bio: |
           Brandeis Marshall, PhD is a computer science scholar and educator who contributes to the data engineering, data science, and data/computer science education fields. Her interests intersect the racial, gendered and socioeconomic impact of data in technology. She is currently Professor of Computer Science at Spelman College and faculty associate at the Berkman Klein Center for Internet & Society at Harvard University. She is also the founder of DataedX, an edtech company focused on enhancing the workforce’s data competencies and supporting career development.
 
       - name: Rick Sommer
+        position: Executive Director, Intercollegiate Studies, Stanford University
         image: /uploads/advisors/rick-sommer.jpg
         bio: |
           - Executive Director, Intercollegiate Studies, Stanford University

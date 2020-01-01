@@ -25,6 +25,7 @@ const BoardMember = ({ member }) => {
     <div>
       <img src={member.image} alt={member.name} />
       <h3 className="name">{member.name}</h3>
+      <p>{member.position}</p>
       <button
         type="button"
         onClick={handleClick}

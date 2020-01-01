@@ -464,6 +464,7 @@ export const pageQuery = graphql`
                 title
                 members {
                   name
+                  position
                   image
                   bio
                 }
