@@ -167,6 +167,7 @@ board_advisors:
 
   advisors:
     title: Advisors
+    note: Advisors serving in individual capacities
     members:
       - name: Joaquin Quiñonero Candela
         position: Director of Engineering for Applied Machine Learning, Facebook

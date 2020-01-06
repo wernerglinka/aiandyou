@@ -109,6 +109,13 @@ const SectionBoard = styled.section`
     padding: 10px 20px;
   }
 
+  .note {
+    display: block;
+    font-style: italic;
+    margin: -15px 0 20px;
+    color: #666;
+  }
+
   .members {
     display: flex;
     justify-content: center;
@@ -370,6 +377,9 @@ const home = ({ data }) => {
           </div>
 
           <h2>{pageContent.board_advisors.advisors.title}</h2>
+          <span className="note">
+            {pageContent.board_advisors.advisors.note}
+          </span>
           <div className="members">
             {pageContent.board_advisors.advisors.members.map(member => (
               <BoardMember member={member} key={member.name} />
@@ -462,6 +472,7 @@ export const pageQuery = graphql`
               }
               advisors {
                 title
+                note
                 members {
                   name
                   position
