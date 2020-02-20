@@ -86,6 +86,8 @@ const SectionProse = styled.div`
   }
 
   &.intro {
+    margin: 0;
+
     p {
       font-size: 22px;
     }
@@ -191,9 +193,24 @@ const Quote = styled.blockquote`
   }
 `;
 
+const DonateButton = styled.div`
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 30px auto 30px;
+    padding: 15px 30px;
+    background-color: #9ed9f5;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+`;
+
 const home = ({ data }) => {
   const pageContent = data.allMarkdownRemark.edges[0].node.frontmatter;
-
   return (
     <>
       <Container>
@@ -206,7 +223,6 @@ const home = ({ data }) => {
               __html: mdStringToHTML(pageContent.intro.section1),
             }}
           />
-          <img src={pageContent.intro.image} alt="page introduction" />
           <SectionProse
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.intro.section2),
@@ -410,6 +426,41 @@ const home = ({ data }) => {
             }}
           />
         </SectionWithHeader>
+
+        <SectionWithHeader id="get-involved">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.get_involved1.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.get_involved1.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.get_involved1.prose),
+            }}
+          />
+          <DonateButton>
+            <a
+              href={`${pageContent.get_involved1.ctaURL}?subject=I want to donate`}
+            >
+              {pageContent.get_involved1.cta}
+            </a>
+          </DonateButton>
+
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.get_involved2.prose),
+            }}
+          />
+        </SectionWithHeader>
       </Container>
     </>
   );
@@ -432,7 +483,6 @@ export const pageQuery = graphql`
             intro {
               section1
               section2
-              image
             }
             about {
               title
@@ -493,6 +543,16 @@ export const pageQuery = graphql`
             aside2 {
               prose
               attribution
+            }
+            get_involved1 {
+              title
+              image
+              prose
+              cta
+              ctaURL
+            }
+            get_involved2 {
+              prose
             }
           }
         }

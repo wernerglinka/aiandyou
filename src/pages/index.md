@@ -6,7 +6,6 @@ heading: home page heading
 intro:
   section1: |
     _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their lives?_
-  image: "/uploads/aiandyou5.jpeg"
   section2: |-
     While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears —though realistic — can be managed through education and dialogue.
     The long-term impact of AI on communities of color is unknown. Conversations about AI are absent in the communities most directly affected by automation and other AI tools.
@@ -15,12 +14,12 @@ about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for under-represented communities of color to learn about Artificial Intelligence (AI). AIandYou.org is the platform for the science community and under-represented communities of color to have a dialogue about AI opportunities, and explore the challenges impacting everyday lives.
+    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI) and bring it into classrooms. AIandYou.org is the platform for the science community, educators, civil society leaders and community members to have a dialogue about AI opportunities at home and in the classroom, and explore the challenges impacting everyday lives.
 
     The AIandYou.org platform is created through: 
     - Community and educator **Outreach** 
-    - **Research** specific to under-represented communities of color
-    - **Resources** for community leaders and educators
+    - **Resources** and curriculum
+    - **Research** specific to AI and underrepresented communities
 
     Participants include scientists, researchers and engineers from:
     - LatinX in AI
@@ -45,20 +44,16 @@ about:
 
 aside1:
   prose: |
-    As the Artificial Intelligence market reaches $70 billion by 2020, humans' fear is in the rise. Why do humans fear AI?
-    AI can only become what humans want it to become. Humans are tasked with coding into their AI creations. If the mass population is becoming anxious about AI this is due to fear of the unknown. It is also perhaps due to too little information available out there on the benefits that AI brings in order to balance with those believing AI will destroy society.
-  attribution:
-    Artificial Intelligence and the Fear of the Unknown – Interesting Engineer,
-    2019
+    Due diligence must be applied to avoid negative consequences for underrepresented communities. Academia, industry and civil society are already coming together to define principles of trustworthy AI.
+  attribution: World Economic Forum 2020
 
 mission:
   title: Mission
   image: "/uploads/aiandyou3.jpeg"
   prose: |
-    AIandYou.org is committed to serving as the primary resource for under-represented communities of color to learn about AI.
-    All communities benefit from understanding more about AI and…
+    AIandYou.org is committed to serving as the primary resource for educators, leaders and members of underrepresented communities to learn about AI. All communities benefit from understanding more about AI and…
     - its social good impact
-    - automation preparation
+    - robotics in the classroom
     - long term challenges and opportunities
 
 approach1:
@@ -98,27 +93,26 @@ approach2: |
   - NBCSL (National Black Caucus of State Legislators)
   - NHCSL (National Hispanic Caucus of State Legislators)
 
-  ## Activate Educators
-  - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
+  ## Activate & Educate Educators
+  - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
+  - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
   - Amplify AI and Robotics as a subset of computer science in classrooms
-  - Provide 3rd party AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
   - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
 
 aside2:
-  prose:
-    African Americans stand to lose thousands jobs to automation in some of the
-    nation's largest cities over the next decade, according to new research from McKinsey
-    & Co.
-  attribution: CBSNews, 10/2019
+  prose: AI can help humans with bias — but only if humans are working together to tackle bias in AI.
+  attribution: Harvard Review
 
 resources:
   title: Resources
   image: "/uploads/aiandyou9a.jpg"
   prose: |
-    Resources helpful for communities of color coming soon.
-
-    ### Webinars
-    Webinars focused on key issues impacting communities of color coming soon.
+    Provide an ecosystem for communities of color to learn about AI
+    - Online resources including webinars
+    - Interactive Q&A
+    - Online AI curriculum guides for educators
+    - Recorded panel events
+    - One-on-one interviews and more.
 
 leadership:
   title: Leadership
@@ -210,6 +204,8 @@ research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"
   prose: |
+    Create research specific to AI and underrepresented communities.  Leverage this research in all activity to further the conversation about ethical AI and identify solutions.
+
     ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
     industries — especially those in "support roles" like cashiers, office clerks,
     stockroom laborers and call-center representatives — are most vulnerable to their
@@ -234,4 +230,25 @@ research:
 
     ### A Medium post by Marianna Elvira
     [Artificial Intelligence Impact on Communities of Color](https://medium.com/@NHMC/artificial-intelligence-impact-on-communities-of-color-7d49dfd121d6)
+
+get_involved1:
+  title: Get Involved
+  image: "/uploads/aiandyou5.jpeg"
+  prose: |
+    ### Become a Corporate Sponsor
+    Demonstrate your commitment to ethical AI, and AI and robotics in the classroom for the future leaders from underrepresented communities. Get in touch to learn more or to connect us with the nonprofit partnerships group at your organization.
+
+    [Learn more about Sponsorship](mailto:susan@aiandyou.org?subject=Inquiry%20about%20becoming%20an%20AIandYou%20corporate%20sponsor)
+
+    ### Donate
+    AIandYou.org is very grateful for your support.  We offer different levels if you are interested.  All funds to be used to support the mission of AIandYou.org.
+
+  cta: Learn about Donations
+  ctaURL: mailto:susan@aiandyou.org?subject=Inquiry%20about%20AIandYou%20donations
+
+get_involved2:
+  prose: |
+    ### Volunteer
+    We welcome all community leaders interested in participating in the dialogue as a local host. Members from Black in AI, Women in Machine Learning, LatinX in AI or Queer in AI are welcome to participate in the conversation as a panelist or guest,  please reach out.  A donation will be made to your respective organization for your participation.
+    [Learn more about Volunteering](mailto:susan@aiandyou.org?subject=I%20want%20to%20learn%20more%20about%20volunteering)
 ---

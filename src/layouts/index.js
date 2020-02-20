@@ -50,6 +50,7 @@ const Layout = ({ children }) => {
     "resources",
     "leadership",
     "research",
+    "get-involved",
   ];
 
   useEffect(() => {
