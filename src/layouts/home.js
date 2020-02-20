@@ -448,9 +448,7 @@ const home = ({ data }) => {
             }}
           />
           <DonateButton>
-            <a
-              href={`${pageContent.get_involved1.ctaURL}?subject=I want to donate`}
-            >
+            <a href={`${pageContent.get_involved1.ctaURL}`}>
               {pageContent.get_involved1.cta}
             </a>
           </DonateButton>
