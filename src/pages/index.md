@@ -56,10 +56,16 @@ mission:
     - robotics in the classroom
     - long term challenges and opportunities
 
-approach1:
+approach:
   title: Approach
   image: "/uploads/aiandyou8.jpeg"
   prose: |
+    ## Activate & Educate Educators
+    - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
+    - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
+    - Amplify AI and Robotics as a subset of computer science in classrooms
+    - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
+
     ## Create the Dialogue
     AIandYou.org partners with national and local advocacy organizations to create community events including, but not limited to:
     - Panel discussions and Q&A at National and Regional Conferences
@@ -76,28 +82,21 @@ approach1:
     - UNIDOS US
     - YWCA
 
-approach2: |
-  ## Engage Influencers
-  AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. Events could include, but not limited to:
+    ## Engage Influencers
+    AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. Events could include, but not limited to:
 
-  - Panel discussions and Q&A at National Conferences
-  - Roundtable conversations with AI leaders
-  - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
+    - Panel discussions and Q&A at National Conferences
+    - Roundtable conversations with AI leaders
+    - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
 
-  Influencer partner outreach includes, but not limited to:
+    Influencer partner outreach includes, but not limited to:
 
-  - Congressional Hispanic Caucus Institute (CHCI)
-  - Congressional Black Caucus Foundation (CBCF)
-  - NALEO (National Association of Latino Elected and Appointed Officials)
-  - National Conference of Mayors
-  - NBCSL (National Black Caucus of State Legislators)
-  - NHCSL (National Hispanic Caucus of State Legislators)
-
-  ## Activate & Educate Educators
-  - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
-  - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
-  - Amplify AI and Robotics as a subset of computer science in classrooms
-  - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
+    - Congressional Hispanic Caucus Institute (CHCI)
+    - Congressional Black Caucus Foundation (CBCF)
+    - NALEO (National Association of Latino Elected and Appointed Officials)
+    - National Conference of Mayors
+    - NBCSL (National Black Caucus of State Legislators)
+    - NHCSL (National Hispanic Caucus of State Legislators)
 
 aside2:
   prose: AI can help humans with bias — but only if humans are working together to tackle bias in AI.
@@ -107,7 +106,7 @@ resources:
   title: Resources
   image: "/uploads/aiandyou9a.jpg"
   prose: |
-    Provide an ecosystem for communities of color to learn about AI
+    AIandYou.org provides an ecosystem for communities of color to learn about AI through providing resources including, but not limited to:
     - Online resources including webinars
     - Interactive Q&A
     - Online AI curriculum guides for educators
@@ -236,18 +235,15 @@ get_involved1:
   image: "/uploads/aiandyou5.jpeg"
   prose: |
     ### Become a Corporate Sponsor
-    Demonstrate your commitment to ethical AI, and AI and robotics in the classroom for the future leaders from underrepresented communities. Get in touch to learn more or to connect us with the nonprofit partnerships group at your organization.
+    Supporting AIandYou.org is an opportunity to support and encourage the dialogue about ethical AI, and amplify the need for increased robotics in the classroom of underrepresented communities.  Get in touch to learn more or to connect us with the nonprofit partnerships group at your organization.
 
     [Learn more about Sponsorship](mailto:susan@aiandyou.org?subject=Inquiry%20about%20becoming%20an%20AIandYou%20corporate%20sponsor)
 
     ### Donate
     AIandYou.org is very grateful for your support.  We offer different levels if you are interested.  All funds to be used to support the mission of AIandYou.org.
 
-  cta: Learn about Donations
-  ctaURL: mailto:susan@aiandyou.org?subject=Inquiry%20about%20AIandYou%20donations
+    [Learn more about Donations](mailto:susan@aiandyou.org?subject=Inquiry%20about%20AIandYou%20donations)
 
-get_involved2:
-  prose: |
     ### Volunteer
     We welcome all community leaders interested in participating in the dialogue as a local host. Members from Black in AI, Women in Machine Learning, LatinX in AI or Queer in AI are welcome to participate in the conversation as a panelist or guest,  please reach out.  A donation will be made to your respective organization for your participation.
     [Learn more about Volunteering](mailto:susan@aiandyou.org?subject=I%20want%20to%20learn%20more%20about%20volunteering)

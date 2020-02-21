@@ -193,22 +193,6 @@ const Quote = styled.blockquote`
   }
 `;
 
-const DonateButton = styled.div`
-  text-align: center;
-
-  a {
-    display: inline-block;
-    margin: 30px auto 30px;
-    padding: 15px 30px;
-    background-color: #9ed9f5;
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 10px;
-  }
-`;
-
 const home = ({ data }) => {
   const pageContent = data.allMarkdownRemark.edges[0].node.frontmatter;
   return (
@@ -298,7 +282,7 @@ const home = ({ data }) => {
             className="parallax-title"
             layers={[
               {
-                image: pageContent.approach1.image,
+                image: pageContent.approach.image,
                 amount: 0.5,
               },
             ]}
@@ -306,26 +290,15 @@ const home = ({ data }) => {
               height: "200px",
             }}
           >
-            <h1>{pageContent.approach1.title}</h1>
+            <h1>{pageContent.approach.title}</h1>
           </ParallaxBanner>
           <SectionProse
             style={{ paddingBottom: 0 }}
             dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.approach1.prose),
+              __html: mdStringToHTML(pageContent.approach.prose),
             }}
           />
         </SectionWithHeader>
-
-        {/* Second part of Approach */}
-
-        <section>
-          <SectionProse
-            style={{ paddingTop: 0 }}
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.approach2),
-            }}
-          />
-        </section>
       </Container>
 
       {/* Quote */}
@@ -362,6 +335,30 @@ const home = ({ data }) => {
           <SectionProse
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.resources.prose),
+            }}
+          />
+        </SectionWithHeader>
+
+        {/* Research */}
+
+        <SectionWithHeader id="research">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.research.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.research.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.research.prose),
             }}
           />
         </SectionWithHeader>
@@ -403,30 +400,6 @@ const home = ({ data }) => {
           </div>
         </SectionBoard>
 
-        {/* Research */}
-
-        <SectionWithHeader id="research">
-          <ParallaxBanner
-            className="parallax-title"
-            layers={[
-              {
-                image: pageContent.research.image,
-                amount: 0.5,
-              },
-            ]}
-            style={{
-              height: "200px",
-            }}
-          >
-            <h1>{pageContent.research.title}</h1>
-          </ParallaxBanner>
-          <SectionProse
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.research.prose),
-            }}
-          />
-        </SectionWithHeader>
-
         <SectionWithHeader id="get-involved">
           <ParallaxBanner
             className="parallax-title"
@@ -445,17 +418,6 @@ const home = ({ data }) => {
           <SectionProse
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.get_involved1.prose),
-            }}
-          />
-          <DonateButton>
-            <a href={`${pageContent.get_involved1.ctaURL}`}>
-              {pageContent.get_involved1.cta}
-            </a>
-          </DonateButton>
-
-          <SectionProse
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.get_involved2.prose),
             }}
           />
         </SectionWithHeader>
@@ -487,12 +449,11 @@ export const pageQuery = graphql`
               image
               prose
             }
-            approach1 {
+            approach {
               title
               image
               prose
             }
-            approach2
             mission {
               title
               image
@@ -545,11 +506,6 @@ export const pageQuery = graphql`
             get_involved1 {
               title
               image
-              prose
-              cta
-              ctaURL
-            }
-            get_involved2 {
               prose
             }
           }
