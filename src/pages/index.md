@@ -235,7 +235,7 @@ get_involved1:
   image: "/uploads/aiandyou5.jpeg"
   prose: |
     ### Become a Corporate Sponsor
-    Supporting AIandYou.org is an opportunity to support and encourage the dialogue about ethical AI, and amplify the need for increased robotics in the classroom of underrepresented communities.  Get in touch to learn more or to connect us with the nonprofit partnerships group at your organization.
+    Supporting AIandYou.org is an opportunity to support and encourage the dialogue about trustworthy AI, and amplify the need for increased robotics in the classrooms of underrepresented communities. Get in touch to learn more or to connect us with the nonprofit or AI partnerships group at your organization.
 
     [Learn more about Sponsorship](mailto:susan@aiandyou.org?subject=Inquiry%20about%20becoming%20an%20AIandYou%20corporate%20sponsor)
 
