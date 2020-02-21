@@ -245,6 +245,6 @@ get_involved1:
     [Learn more about Donations](mailto:susan@aiandyou.org?subject=Inquiry%20about%20AIandYou%20donations)
 
     ### Volunteer
-    We welcome all community leaders interested in participating in the dialogue as a local host. Members from Black in AI, Women in Machine Learning, LatinX in AI or Queer in AI are welcome to participate in the conversation as a panelist or guest,  please reach out.  A donation will be made to your respective organization for your participation.
+    We welcome all community leaders interested in participating in the dialogue.   Members of Black in AI, Women in Machine Learning, LatinX in AI or Queer in AI are welcome to participate in the conversation as a panelist or guest, please reach out. A donation will be made to your respective organization for your participation.
     [Learn more about Volunteering](mailto:susan@aiandyou.org?subject=I%20want%20to%20learn%20more%20about%20volunteering)
 ---
