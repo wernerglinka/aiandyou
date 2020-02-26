@@ -203,32 +203,35 @@ research:
   title: Research
   image: "/uploads/aiandyou6.jpeg"
   prose: |
-    Create research specific to AI and underrepresented communities.  Leverage this research in all activity to further the conversation about ethical AI and identify solutions.
+    ### EDUCATION
+    https://edtechmagazine.com/k12/article/2019/08/artificial-intelligence-authentic-impact-how-educational-ai-making-grade-perfcon
+    https://edtechmagazine.com/k12/article/2019/09/how-k-12-classrooms-can-benefit-robotics-perfcon
 
-    ### McKinsey & Company - Blacks in the fast-food, retail and customer-service
-    industries — especially those in "support roles" like cashiers, office clerks,
-    stockroom laborers and call-center representatives — are most vulnerable to their
-    jobs disappearing as companies invest more in labor-replacing technologies. In
-    all, African-Americans are projected to lose a total of 132,000 jobs between now
-    and 2030 due to automation, researchers said.  Of course, other groups are also
-    under threat. Latinos could see roughly a quarter of their jobs automated out
-    of existence, according to McKinsey, while Asians, whites and others will also
-    be affected.
+    ### EMPLOYMENT
+    https://www.vox.com/recode/2019/12/12/20993665/artificial-intelligence-ai-job-screen
+    https://www.businessinsider.com/ai-hiring-tools-biased-as-humans-experts-warn-2019-10
 
-    ### Cities Struggle to Prepare African Americans, Latinos for the Future Workforce – U.S. News, 2019
-    A new study details how different cities are educating and training their populations most impacted by job automation.
-    Despite city efforts to train their residents for workforce changes as automation threatens millions of jobs, they are struggling to equip their most vulnerable populations: African Americans and Latinos.
-    In a [recent study](https://www.ourmayors.org/Resources/Future-of-Work-Initiative) released by the African American Mayors Association, which represents more than 500 African American mayors across the U.S., researchers examined three cities – Gary, [Indiana](https://www.usnews.com/news/best-states/indiana); Columbia, [South Carolina](https://www.usnews.com/news/best-states/south-carolina); and Long Beach, [California](https://www.usnews.com/news/best-states/california) – to see how successful they've been in preparing students and workers to succeed
-    in the changing labor market. What they found: the initiatives aren't effectively reaching the populations most likely to lose their jobs to automation.
+    ### FINANCIAL SERVICES
+    https://www.fintechfutures.com/2019/10/ai-understanding-bias-and-opportunities-in-financial-services/
 
-    ### A biased medical algorithm favored white people for health-care programs - MIT Technology Review, Oct 25, 2019
-    A [study](https://www.technologyreview.com/f/614626/a-biased-medical-algorithm-favored-white-people-for-healthcare-programs/) has highlighted the risks inherent in using historical data to train machine-learning algorithms to make predictions.
+    ### HEALTHCARE/MEDICINE
+    https://thehill.com/opinion/healthcare/478651-dangers-of-artificial-intelligence-in-medicine
 
-    ### A PolicyLink blog post
-    [Equity, Artificial Intelligence, and Transportation](https://www.policylink.org/blog/equity-ai-transportation)
+    ### HOME OWNERSHIP
+    https://www.forbes.com/sites/korihale/2020/12/30/ai-could-be-the-new-play-to-increase-minority-homeownership/#3e4ce1bd218c
 
-    ### A Medium post by Marianna Elvira
-    [Artificial Intelligence Impact on Communities of Color](https://medium.com/@NHMC/artificial-intelligence-impact-on-communities-of-color-7d49dfd121d6)
+    ### POLICY
+    https://www.pwc.com/us/en/library/risk-regulatory/strategic-policy/top-policy-trends/ai.html
+
+    ### TOOLS: 
+    #### Automation:
+    https://www.huffpost.com/entry/automation-race_n_5b20eb7ae4b0adfb826f9f48
+    https://www.theatlantic.com/education/archive/2017/12/the-new-casualties-of-automation/548948/
+
+    #### Facial Recognition:
+    https://thehill.com/policy/technology/475350-government-study-finds-racial-gender-bias-in-facial-recognition-software
+
+    If you have a recommendation for additional content subject areas, please reach out to susan@aiandyou.org.
 
 get_involved1:
   title: Get Involved
