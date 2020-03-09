@@ -14,23 +14,16 @@ about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI) and bring it into classrooms. AIandYou.org is the platform for the science community, educators, civil society leaders and community members to have a dialogue about AI opportunities at home and in the classroom, and explore the challenges impacting everyday lives.
+    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI).  AIandYou.org is the platform for the science community, educators, civil society leaders and community members to have a dialogue and identify solutions and to today’s bias challenges.
 
-    The AIandYou.org platform is created through: 
-    - Community and educator **Outreach** 
-    - **Resources** and curriculum
-    - **Research** specific to AI and underrepresented communities
+    The AIandYou.org platform is created through:
 
-    Participants include scientists, researchers and engineers from:
-    - LatinX in AI
-    - Black in AI
-    - Queer in AI
-    - Women and Machine Learning (WiML)
+    - Community and educator **Outreach** 
+    - **Resources** for community leaders and educators
+    - **Research** specific to AI and underrepresented communities
 
-    Leaders from these organizations participate in local, regional and national events to educate, inform and collaborate with the community.
-
-    AIandYou.org topics include:
-    - AI basics
+    AIandYou.org topics include: 
+    - AI tools – today and the future
     - AI, automation and job preparation
     - AI and unintended bias and solutions
     - AI and medicine (diabetes, cancer, women’s health and others)
@@ -40,39 +33,31 @@ about:
     - AI and autonomous vehicles
     - and many other topics
 
-    _A portion of proceeds is donated to participating AI affinity groups (LatinX in AI, Black in AI, Women in Machine Learning (WiML), Queer in AI)._
-
 aside1:
   prose: |
-    Due diligence must be applied to avoid negative consequences for underrepresented communities. Academia, industry and civil society are already coming together to define principles of trustworthy AI.
+    "Due diligence must be applied to avoid negative consequences for underrepresented communities. Academia, industry and civil society are already coming together to define principles of trustworthy AI."
   attribution: World Economic Forum 2020
 
 mission:
   title: Mission
-  image: "/uploads/aiandyou3.jpeg"
+  image: "/uploads/aiandyou10.jpeg"
   prose: |
-    AIandYou.org is committed to serving as the primary resource for educators, leaders and members of underrepresented communities to learn about AI. All communities benefit from understanding more about AI and…
-    - its social good impact
-    - robotics in the classroom
-    - long term challenges and opportunities
+    Our mission is to educate and engage underrepresented communities about artificial intelligence (AI) to identify opportunities, create solutions to avoid bias and amplify the need for AI in schools.
 
 approach:
   title: Approach
   image: "/uploads/aiandyou8.jpeg"
   prose: |
-    ## Activate & Educate Educators
-    - Engage educators and influencers of the education system to highlight AI and Robotics teaching in classrooms 
-    - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science curriculum
-    - Amplify AI and Robotics as a subset of computer science in classrooms
-    - Partner with national and regional organizations who are training teachers to bring computer science into classrooms to amplify the message
+    ## Create the Dialogue: Opportunities, Tools, Challenges
 
-    ## Create the Dialogue
     AIandYou.org partners with national and local advocacy organizations to create community events including, but not limited to:
+
     - Panel discussions and Q&A at National and Regional Conferences
     - Roundtable conversations with AI leaders
     - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
 
     Advocacy partner outreach includes, but not limited to:
+
     - AARP diversity & inclusion
     - LeanIn Latinas
     - LULAC (League of United Latin American Citizens)
@@ -82,9 +67,17 @@ approach:
     - UNIDOS US
     - YWCA
 
-    ## Engage Influencers
-    AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. Events could include, but not limited to:
+    ## Activate & Educate Educators
 
+    - Engage educators and influencers of the education system to highlight AI and Robotics teaching in schools
+    - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science
+    - Amplify AI and Robotics as a subset of computer science in classrooms
+
+    ## Engage Influencers
+
+    AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. 
+
+    - Events could include, but not limited to:
     - Panel discussions and Q&A at National Conferences
     - Roundtable conversations with AI leaders
     - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.

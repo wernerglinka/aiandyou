@@ -214,6 +214,30 @@ const home = ({ data }) => {
           />
         </section>
 
+        {/* Mission */}
+
+        <SectionWithHeader id="mission">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.mission.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.mission.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.mission.prose),
+            }}
+          />
+        </SectionWithHeader>
+
         {/* About */}
 
         <SectionWithHeader id="about">
@@ -251,30 +275,6 @@ const home = ({ data }) => {
         </Container>
       </MajorPoint>
       <Container>
-        {/* Mission */}
-
-        <SectionWithHeader id="mission">
-          <ParallaxBanner
-            className="parallax-title"
-            layers={[
-              {
-                image: pageContent.mission.image,
-                amount: 0.5,
-              },
-            ]}
-            style={{
-              height: "200px",
-            }}
-          >
-            <h1>{pageContent.mission.title}</h1>
-          </ParallaxBanner>
-          <SectionProse
-            dangerouslySetInnerHTML={{
-              __html: mdStringToHTML(pageContent.mission.prose),
-            }}
-          />
-        </SectionWithHeader>
-
         {/* Approach */}
 
         <SectionWithHeader id="approach">
