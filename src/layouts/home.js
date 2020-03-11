@@ -92,6 +92,10 @@ const SectionProse = styled.div`
       font-size: 22px;
     }
   }
+
+  &.mission-statement {
+    font-size: 22px;
+  }
 `;
 
 const SectionBlank = styled.section`
@@ -232,6 +236,7 @@ const home = ({ data }) => {
             <h1>{pageContent.mission.title}</h1>
           </ParallaxBanner>
           <SectionProse
+            className="mission-statement"
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.mission.prose),
             }}
