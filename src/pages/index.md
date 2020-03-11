@@ -42,7 +42,7 @@ mission:
   title: Mission
   image: "/uploads/aiandyou10.jpeg"
   prose: |
-    Our mission is to educate and engage underrepresented communities about artificial intelligence (AI) to identify opportunities, create solutions to avoid bias and amplify the need for AI in schools.
+    Our mission is to educate and engage underrepresented communities in artificial intelligence (AI). We’ll create solutions to minimize bias, educate leaders and strengthen our communities with AI.
 
 approach:
   title: Approach

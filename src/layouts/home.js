@@ -226,7 +226,7 @@ const home = ({ data }) => {
               },
             ]}
             style={{
-              height: "200px",
+              height: "300px",
             }}
           >
             <h1>{pageContent.mission.title}</h1>
