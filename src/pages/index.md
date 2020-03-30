@@ -14,24 +14,24 @@ about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI).  AIandYou.org is the platform for the science community, educators, civil society leaders and community members to have a dialogue and identify solutions and to today’s bias challenges.
+    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI). AIandYou is the platform for the science community, educators, civil society leaders and community members to learn about AI and create a network to identify bias solutions.
 
     The AIandYou.org platform is created through:
 
-    - Community and educator **Outreach** 
-    - **Resources** for community leaders and educators
-    - **Research** specific to AI and underrepresented communities
+    - Community and educator **Outreach** 
+    - Online **Resources** for the community and educators
+    - **Research** specific to AI and underrepresented communities 
 
-    AIandYou.org topics include: 
-    - AI tools – today and the future
-    - AI, automation and job preparation
-    - AI and unintended bias and solutions
-    - AI and medicine (diabetes, cancer, women’s health and others)
-    - AI and employment
-    - AI and disease
-    - AI and education
-    - AI and autonomous vehicles
-    - and many other topics
+    AI topics to be highlighted include: 
+
+    - Tools (e.g. devices, job searching, shopping)
+    - Disease
+    - Unintended bias and solutions
+    - Medicine (diabetes, cancer, women’s health and others)
+    - Employment
+    - Education
+    - Automation and job preparation
+    - Autonomous vehicles
 
 aside1:
   prose: |
@@ -48,48 +48,69 @@ approach:
   title: Approach
   image: "/uploads/aiandyou8.jpeg"
   prose: |
-    ## Create the Dialogue: Opportunities, Tools, Challenges
+    ## CommunityEngagement
 
-    AIandYou.org partners with national and local advocacy organizations to create community events including, but not limited to:
+    **Educate communities of color about AI and create dialogue with industry leaders**
 
-    - Panel discussions and Q&A at National and Regional Conferences
-    - Roundtable conversations with AI leaders
-    - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
+    - Partner with civil society organizations to educate audiences through panel conversations, networking events and discussion.
+    - Activate educators by increasing awareness about AI and its career path opportunities.
+    - Bring together policy, diverse community and AI leaders to explore AI for good and its challenges 
 
-    Advocacy partner outreach includes, but not limited to:
+    ## Learning Resources
 
-    - AARP diversity & inclusion
-    - LeanIn Latinas
-    - LULAC (League of United Latin American Citizens)
-    - NAACP
-    - National Urban League
-    - Rainbow PUSH Coalition
-    - UNIDOS US
-    - YWCA
+    **Provide an ecosystem for communities of color to learn about AI**
 
-    ## Activate & Educate Educators
+    - Online resources, including webinars and interactive Q&As
+    - Online guidelines for educators
+    - AI career paths to inspire students
+    - Recorded panel events
+    - One-on-one interviews
 
-    - Engage educators and influencers of the education system to highlight AI and Robotics teaching in schools
-    - Provide AI-specific resources for educators to advance the inclusion of AI and Robotics in computer science
-    - Amplify AI and Robotics as a subset of computer science in classrooms
+    ## Original Research
 
-    ## Engage Influencers
+    **Offer insights into AI and diverse communities**
 
-    AIandYou.org partners with diverse regional and national influencers to host panel discussions and networking events with community influencers and leaders. 
+    - Research on AI and underrepresented communities
+    - White papers focusing on AI’s impact on underrepresented communities
+    - Topic areas: Education, Employment, Financial Services, Healthcare, Home Ownership, Policy
 
-    - Events could include, but not limited to:
-    - Panel discussions and Q&A at National Conferences
-    - Roundtable conversations with AI leaders
-    - Social events creating an opportunity for community members to interact with AI leaders from throughout the world.
+outcomes:
+  title: Outcomes
+  image: "/uploads/aiandyou5.jpeg"
+  prose: |
+    ## Critical Solutions
 
-    Influencer partner outreach includes, but not limited to:
+    **Solutions to bias in AI are created through the collaboration between AI leaders and underrepresented communities**
 
-    - Congressional Hispanic Caucus Institute (CHCI)
-    - Congressional Black Caucus Foundation (CBCF)
-    - NALEO (National Association of Latino Elected and Appointed Officials)
-    - National Conference of Mayors
-    - NBCSL (National Black Caucus of State Legislators)
-    - NHCSL (National Hispanic Caucus of State Legislators)
+    - A network of new relationships creates a dialogue to understand how to change bias in AI. 
+    - Solutions based on critical insights and information are created through the network.
+    - AI Affinity Group leaders from all industries and academia share insights with the science community.
+
+    ## Empowered Leadership
+
+    **Civil Society, Community Leaders and Educators become more aware about AI topics including:**
+
+    - Consumer AI
+      - Devices & apps
+      - Facial recognition
+      - Job searching
+      - Small business growth
+      - Healthcare management
+    - Health AI
+      - Disease prevention
+      - Disease management
+    - Business AI
+      - Employment
+      - Financial services
+    - AI and Policy
+
+    ## Global Platform
+
+    **A global platform is created by integrating Ai leaders with underrepresented communities**
+
+    - In-person events create networking opportunities to explore AI
+    - Online education, live interaction and interviews
+    - Research papers and information specific to underrepresented communities.
 
 aside2:
   prose: AI can help humans with bias — but only if humans are working together to tackle bias in AI.
@@ -231,7 +252,10 @@ get_involved1:
   image: "/uploads/aiandyou5.jpeg"
   prose: |
     ### Become a Corporate Sponsor
-    Supporting AIandYou.org is an opportunity to support and encourage the dialogue about trustworthy AI, and amplify the need for increased robotics in the classrooms of underrepresented communities. Get in touch to learn more or to connect us with the nonprofit or AI partnerships group at your organization.
+    A critical success factor to creating inclusive, trustworthy AI quickly is empowering underrepresented communities with information.  Supporting AIandYou.org will:
+    - move the community from AI fear and skepticism to engagement and trust. 
+    - contribute to the creation of more inclusive AI tools
+    - be a leader supporting inclusive and trustworthy AI
 
     [Learn more about Sponsorship](mailto:susan@aiandyou.org?subject=Inquiry%20about%20becoming%20an%20AIandYou%20corporate%20sponsor)
 

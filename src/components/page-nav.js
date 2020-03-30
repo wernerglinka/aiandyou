@@ -25,7 +25,7 @@ const NavBar = styled.div`
     right: 0;
     top: 0;
     width: 320px;
-    height: 400px;
+    height: 450px;
     background-color: #9ed9f5;
     color: #fff;
     display: flex;

@@ -298,9 +298,35 @@ const home = ({ data }) => {
             <h1>{pageContent.approach.title}</h1>
           </ParallaxBanner>
           <SectionProse
-            style={{ paddingBottom: 0 }}
             dangerouslySetInnerHTML={{
               __html: mdStringToHTML(pageContent.approach.prose),
+            }}
+          />
+        </SectionWithHeader>
+      </Container>
+
+      <Container>
+        {/* Outcomes */}
+
+        <SectionWithHeader id="outcomes">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.outcomes.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.outcomes.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
+            style={{ paddingBottom: 0 }}
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.outcomes.prose),
             }}
           />
         </SectionWithHeader>
@@ -455,6 +481,11 @@ export const pageQuery = graphql`
               prose
             }
             approach {
+              title
+              image
+              prose
+            }
+            outcomes {
               title
               image
               prose
