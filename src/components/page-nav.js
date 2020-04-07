@@ -22,39 +22,47 @@ const NavBar = styled.div`
   ul {
     list-style: none;
     position: absolute;
-    right: 0;
+    right: -350px;
     top: 0;
     width: 320px;
-    height: 450px;
+    height: 500px;
     background-color: #9ed9f5;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 50px 0 0;
+    padding: 40px 50px 0 0;
     margin-top: 0;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 
+    li {
+      padding: 10px 20px;
+      text-transform: uppercase;
+
+      a {
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        pointer-events: none;
+
+        &.active {
+          color: #999;
+          cursor: default;
+        }
+      }
+    }
+
     &.active {
       opacity: 1;
       margin-top: -20px;
-    }
-  }
+      right: 0;
 
-  li {
-    padding: 10px 20px;
-    text-transform: uppercase;
-
-    a {
-      font-size: 14px;
-      font-weight: 400;
-      cursor: pointer;
-
-      &.active {
-        color: #999;
-        cursor: default;
+      li {
+        a {
+          pointer-events: auto;
+        }
       }
     }
   }

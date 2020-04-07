@@ -5,6 +5,7 @@ import remark from "remark";
 import recommended from "remark-preset-lint-recommended";
 import remarkHtml from "remark-html";
 import styled from "@emotion/styled";
+import { Link as SmoothScrollLink } from "react-scroll";
 import { ParallaxBanner } from "react-scroll-parallax";
 import Container from "../components/container";
 import BoardMember from "./board-member";
@@ -197,14 +198,35 @@ const Quote = styled.blockquote`
   }
 `;
 
+const SpecialMsg = styled.div`
+  float: right;
+  padding: 30px;
+  color: white;
+  background-color: red;
+  margin: -20px -20px 0 0;
+  font-weight: bold;
+  cursor: pointer;
+`;
+
 const home = ({ data }) => {
   const pageContent = data.allMarkdownRemark.edges[0].node.frontmatter;
+  const specialMessageTarget = "covid19";
   return (
     <>
       <Container>
         {/* Introduction */}
 
         <section>
+          <SmoothScrollLink
+            to={specialMessageTarget}
+            spy
+            smooth
+            offset={-100}
+            duration={1000}
+          >
+            <SpecialMsg>AI & COVID-19</SpecialMsg>
+          </SmoothScrollLink>
+
           <SectionProse
             className="hasHighlight intro"
             dangerouslySetInnerHTML={{
@@ -452,6 +474,28 @@ const home = ({ data }) => {
             }}
           />
         </SectionWithHeader>
+
+        <SectionWithHeader id="covid19">
+          <ParallaxBanner
+            className="parallax-title"
+            layers={[
+              {
+                image: pageContent.covid19.image,
+                amount: 0.5,
+              },
+            ]}
+            style={{
+              height: "200px",
+            }}
+          >
+            <h1>{pageContent.covid19.title}</h1>
+          </ParallaxBanner>
+          <SectionProse
+            dangerouslySetInnerHTML={{
+              __html: mdStringToHTML(pageContent.covid19.prose),
+            }}
+          />
+        </SectionWithHeader>
       </Container>
     </>
   );
@@ -540,6 +584,11 @@ export const pageQuery = graphql`
               attribution
             }
             get_involved1 {
+              title
+              image
+              prose
+            }
+            covid19 {
               title
               image
               prose

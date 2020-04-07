@@ -267,4 +267,21 @@ get_involved1:
     ### Volunteer
     We welcome all community leaders interested in participating in the dialogue.   Members of Black in AI, Women in Machine Learning, LatinX in AI or Queer in AI are welcome to participate in the conversation as a panelist or guest, please reach out. A donation will be made to your respective organization for your participation.
     [Learn more about Volunteering](mailto:susan@aiandyou.org?subject=I%20want%20to%20learn%20more%20about%20volunteering)
+
+covid19:
+  title: "AI & COVID-19"
+  image: "/uploads/tam-wai-nx9LpzQBf9Q-unsplash.jpg"
+  prose: |
+    AI Might Spot At-Risk COVID-19 Patients
+
+    https://www.webmd.com/lung/news/20200330/ai-might-spot-at-risk-covid-19-patients#1
+
+    AI (Artificial Intelligence) Companies That Are Combating The COVID-19 Pandemic
+    https://www.forbes.com/sites/tomtaulli/2020/03/28/ai-artificial-intelligence-companies-that-are-combating-the-covid-19-pandemic/#7a19c34b58f8
+
+    Researchers Use AI to Detect COVID-19
+    https://www.itnonline.com/content/researchers-use-ai-detect-covid-19
+
+    Experimental AI tool predicts which COVID-19 patients develop respiratory disease
+    https://www.sciencedaily.com/releases/2020/03/200330152135.htm
 ---

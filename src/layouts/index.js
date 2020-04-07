@@ -52,6 +52,7 @@ const Layout = ({ children }) => {
     "leadership",
     "research",
     "get-involved",
+    "covid19",
   ];
 
   useEffect(() => {
