@@ -5,16 +5,15 @@ heading: home page heading
 
 intro:
   section1: |
-    _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will communities of color be prepared for AI related opportunities and challenges impacting their lives?_
+    _From SIRI to self-driving cars, artificial intelligence is progressing rapidly. Will marginalized communities be prepared for AI related opportunities and challenges impacting their lives?_
   section2: |-
-    While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears —though realistic — can be managed through education and dialogue.
-    The long-term impact of AI on communities of color is unknown. Conversations about AI are absent in the communities most directly affected by automation and other AI tools.
+    While no one can foresee exactly how this will play out, a mountain of evidence suggests that just like during past technological leaps, the fears —though realistic — can be managed through education and dialogue. The long-term impact of AI on marginalized communities is unknown. Engagement around AI is absent in the communities most directly affected by automation and other AI tools.
 
 about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for underrepresented communities of color to learn about Artificial Intelligence (AI). AIandYou is the platform for the science community, educators, civil society leaders and community members to learn about AI and create a network to identify bias solutions.
+    AIandYou.org is a U.S. based non-profit creating opportunities for marginalized communities to learn about Artificial Intelligence (AI. AIandYou is the platform for the science community, educators, civil rights leaders and community members to learn about AI and create a network to identify bias solutions.
 
     The AIandYou.org platform is created through:
 
@@ -42,7 +41,10 @@ mission:
   title: Mission
   image: "/uploads/aiandyou10.jpeg"
   prose: |
-    Our mission is to educate and engage underrepresented communities in artificial intelligence (AI). We’ll create solutions to minimize bias, educate leaders and strengthen our communities with AI.
+    AIandYou.org’s mission is to educate and engage marginalized communities about artificial intelligence (AI).
+    We’ll create solutions to minimize bias, educate leaders, and strengthen our communities through AI.
+
+    _Based in the Bay Area, AIandYou.org is a 501c-3 non-profit organization that creates dialogue in the community to promote AI education, develop research, and offer online resources to help marginalized communities learn about artificial intelligence._
 
 approach:
   title: Approach
@@ -50,9 +52,9 @@ approach:
   prose: |
     ## CommunityEngagement
 
-    **Educate communities of color about AI and create dialogue with industry leaders**
+    **Educate marginalized communities about AI and create dialogue with industry leaders**
 
-    - Partner with civil society organizations to educate audiences through panel conversations, networking events and discussion.
+    - Partner with civil society/civil rights organizations to educate audiences through panel conversations, networking events and discussion.
     - Activate educators by increasing awareness about AI and its career path opportunities.
     - Bring together policy, diverse community and AI leaders to explore AI for good and its challenges 
 
@@ -65,12 +67,15 @@ approach:
     - AI career paths to inspire students
     - Recorded panel events
     - One-on-one interviews
+    - Video series
+    - Podcasts
 
-    ## Original Research
+
+    ## Community Research
 
     **Offer insights into AI and diverse communities**
 
-    - Research on AI and underrepresented communities
+    - Research on AI and marginalized communities
     - White papers focusing on AI’s impact on underrepresented communities
     - Topic areas: Education, Employment, Financial Services, Healthcare, Home Ownership, Policy
 
@@ -88,7 +93,7 @@ outcomes:
 
     ## Empowered Leadership
 
-    **Civil Society, Community Leaders and Educators become more aware about AI topics including:**
+    **Civil Rights, Community Leaders and Educators become more aware about AI topics including:**
 
     - Consumer AI
       - Devices & apps
@@ -106,10 +111,10 @@ outcomes:
 
     ## Global Platform
 
-    **A global platform is created by integrating Ai leaders with underrepresented communities**
+    **A global platform is created by integrating AI leaders with marginalized communities**
 
     - In-person events create networking opportunities to explore AI
-    - Online education, live interaction and interviews
+    - Online education, live interaction, video series and interviews
     - Research papers and information specific to underrepresented communities.
 
 aside2:
@@ -132,9 +137,11 @@ leadership:
   image: "/uploads/susan-gonzales.jpg"
   prose: |
     ### Susan Gonzales, Founder and CEO
-    Susan brings years of experience leading community engagement and communications for companies including Facebook, Comcast, Levi Strauss & Co. She has successfully created global community engagement and education programs involving national advocacy leaders and local community representatives.  Susan has created a wide network of relationships with diverse community leaders throughout the U.S. and has created opportunities for the community through building strong partnerships.  Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/nipsfoundation/videos/284660435523814/) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural-Processing Information Systems (NeurIPS) AI Global Conference.
+    Susan brings years of experience leading community engagement and communications for companies including Facebook, Comcast, Levi Strauss & Co. She has successfully created global community engagement and education programs involving national advocacy leaders and local community representatives. 
 
-    Susan is a mentor to Latinx student and serves on the Board of community-based organizations.  She is an outdoor enthusiast and lives in the Bay Area of California. She currently serves as Advisor Board Member to:
+    Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/watch/live/?v=284660435523814&ref=watch_permalink) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural Information Processing Systems (NeurIPS) AI Global Conference. 
+
+    Susan is a mentor to LatinX student and serves on the Board of community-based organizations. She is an outdoor enthusiast and lives in the Bay Area of California. She currently serves as Advisor Board Member to:
     - Dave Goldberg and Sheryl Sandberg Foundation and LeanIn.org
     - Eva Longoria Foundation
     - The Latina Collective
