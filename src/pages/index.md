@@ -13,7 +13,7 @@ about:
   title: About AI and You
   image: "/uploads/aiandyou1.jpeg"
   prose: |
-    AIandYou.org is a U.S. based non-profit creating opportunities for marginalized communities to learn about Artificial Intelligence (AI. AIandYou is the platform for the science community, educators, civil rights leaders and community members to learn about AI and create a network to identify bias solutions.
+    AIandYou.org is a U.S. based non-profit creating opportunities for marginalized communities to learn about Artificial Intelligence (AI). AIandYou is the platform for the science community, educators, civil rights leaders and community members to learn about AI and create a network to identify bias solutions.
 
     The AIandYou.org platform is created through:
 
@@ -50,7 +50,7 @@ approach:
   title: Approach
   image: "/uploads/aiandyou8.jpeg"
   prose: |
-    ## CommunityEngagement
+    ## Community Engagement
 
     **Educate marginalized communities about AI and create dialogue with industry leaders**
 
@@ -85,7 +85,7 @@ outcomes:
   prose: |
     ## Critical Solutions
 
-    **Solutions to bias in AI are created through the collaboration between AI leaders and underrepresented communities**
+    **Solutions to bias in AI are created through the collaboration between AI leaders and marginalized communities**
 
     - A network of new relationships creates a dialogue to understand how to change bias in AI. 
     - Solutions based on critical insights and information are created through the network.
