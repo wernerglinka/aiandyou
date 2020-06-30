@@ -137,20 +137,34 @@ leadership:
   image: "/uploads/susan-gonzales.jpg"
   prose: |
     ### Susan Gonzales, Founder and CEO
-    Susan brings years of experience leading community engagement and communications for companies including Facebook, Comcast, Levi Strauss & Co. She has successfully created global community engagement and education programs involving national advocacy leaders and local community representatives. 
 
-    Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/watch/live/?v=284660435523814&ref=watch_permalink) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural Information Processing Systems (NeurIPS) AI Global Conference. 
+    Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/watch/live/?v=284660435523814&ref=watch_permalink) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural Information Processing Systems (NeurIPS) AI Global Conference. 
+
+    Susan serves as Diversity and Inclusion Advisor to The World Economic Forum Global AI Alliance for AI Governance.  She also sits on the Congressional AI Roundtable hosted by Congressman Hurd and Congresswoman Kelly of the Congressional Black Caucus.
 
     Susan is a mentor to LatinX student and serves on the Board of community-based organizations. She is an outdoor enthusiast and lives in the Bay Area of California. She currently serves as Advisor Board Member to:
-    - Dave Goldberg and Sheryl Sandberg Foundation and LeanIn.org
+
+    - Dave Goldberg and Sheryl Sandberg Foundation and [LeanIn.org](https://leanin.org/)
     - Eva Longoria Foundation
     - The Latina Collective
 
-    Read the Forbes article on [how Susan pitched her role at Facebook](https://www.forbes.com/sites/viviannunez/2019/04/23/susan-gonzales-on-how-she-pitched-her-role-at-facebook-and-why-shes-now-focusing-on-diversity-in-ai-latina/#3aad93b21536) and why she is committed to AI education.
-
-    Read Huffington Post [Why I Followed My Personal Calling, Even When It Led Away From A Great Job](https://www.huffpost.com/entry/leaving-a-great-job_b_12592768) to learn about Susan's motivation.
-
-    Listen to The All Turtles Podcast Episode 51: [Startup communication and outreach with Susan Gonzales](https://www.all-turtles.com/podcast/the-all-turtles-podcast-episode-51-startup-communication-and-outreach-with-susan-gonzales/)
+    <ul class="media-list">
+      <li>
+        <a href="https://www.forbes.com/sites/viviannunez/2019/04/23/susan-gonzales-on-how-she-pitched-her-role-at-facebook-and-why-shes-now-focusing-on-diversity-in-ai-latina/#3aad93b21536" target="_blank" >
+          <img src="/uploads/logos/forbes.png" alt="forbes logo" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.huffpost.com/entry/leaving-a-great-job_b_12592768" target="_blank" >
+          <img src="/uploads/logos/huffington-post.png" alt="huffington post logo" />
+        </a>
+      </li>
+      <li>
+        <a href="https://medium.all-turtles.com/all-turtles-podcast-episode-51-startup-communication-and-outreach-with-susan-gonzales-8b0c3371c945" target="_blank" >
+          <img src="/uploads/logos/all-turtles.png" alt="all turtles podcast logo" />
+        </a>
+      </li>
+    </ul>
 
 board_advisors:
   title: Board Members and Advisors

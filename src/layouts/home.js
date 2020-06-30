@@ -64,6 +64,29 @@ const SectionWithImage = styled.section`
       width: 100%;
     }
   }
+
+  .media-list {
+    margin: 50px 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 470px) {
+      flex-direction: column;
+    }
+
+    li {
+      flex: 0 0 33%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+
+      img {
+        margin: 0;
+        width: 150px;
+      }
+    }
+  }
 `;
 
 const SectionProse = styled.div`
