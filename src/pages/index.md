@@ -239,31 +239,70 @@ research:
   image: "/uploads/aiandyou6.jpeg"
   prose: |
     ### EDUCATION
+    K-12 schools use AI and automation to customize lessons and pivot from in-person to online classes
+    https://www.techrepublic.com/article/k-12-school-use-ai-and-automation-to-customize-lessons-and-pivot-from-in-person-to-online-classes/
+
+    HOW AI CAN SUPPORT LEARNERS UNDER COVID-19 AND BEYOND
+    https://www.alelo.com/2020/06/how-ai-can-support-learners-under-covid-19-and-beyond/ 
+
     https://edtechmagazine.com/k12/article/2019/08/artificial-intelligence-authentic-impact-how-educational-ai-making-grade-perfcon
     https://edtechmagazine.com/k12/article/2019/09/how-k-12-classrooms-can-benefit-robotics-perfcon
 
     ### EMPLOYMENT
+    What AI Means for the Next-Gen Workforce
+    https://www.industryweek.com/talent/article/22028189/what-ai-means-for-the-nextgen-workforce
+
     https://www.vox.com/recode/2019/12/12/20993665/artificial-intelligence-ai-job-screen
     https://www.businessinsider.com/ai-hiring-tools-biased-as-humans-experts-warn-2019-10
 
     ### FINANCIAL SERVICES
+    AI ‘only scratching the surface’ of potential in financial services
+    https://www.ft.com/content/11aab1cc-907b-11ea-bc44-dbf6756c871a
+
+    AI Conversations: Transforming Financial Services (Opinion)
+    https://www.cio.com/article/3564713/ai-conversations-transforming-financial-services.html
+
     https://www.fintechfutures.com/2019/10/ai-understanding-bias-and-opportunities-in-financial-services/
 
     ### HEALTHCARE/MEDICINE
+    How one health system harnessed AI, telehealth to combat coronavirus
+    https://www.healthcareitnews.com/news/how-one-health-system-harnessed-ai-telehealth-combat-coronavirus
+
+    Montreal student researchers help create virtual medical assistant for COVID-19
+    https://www.thesuburban.com/life/health/montreal-student-researchers-help-create-virtual-medical-assistant-for-covid-19/article_6f3a3e6e-ba3f-11ea-ab0d-a7e858d8fa13.html
+
     https://thehill.com/opinion/healthcare/478651-dangers-of-artificial-intelligence-in-medicine
 
     ### HOME OWNERSHIP
+    Private equity firm ASG acquires AI-powered startup Homebot
+    https://www.housingwire.com/articles/private-equity-firm-asg-acquires-ai-powered-startup-homebot/
+
     https://www.forbes.com/sites/korihale/2020/12/30/ai-could-be-the-new-play-to-increase-minority-homeownership/#3e4ce1bd218c
 
     ### POLICY
+    Here Is How The United States Should Regulate Artificial Intelligence
+    https://www.forbes.com/sites/robtoews/2020/06/28/here-is-how-the-united-states-should-regulate-artificial-intelligence/#1760b7a07821
+
     https://www.pwc.com/us/en/library/risk-regulatory/strategic-policy/top-policy-trends/ai.html
 
     ### TOOLS: 
     #### Automation:
+    Automation Continues to Drive Use of Electronic Payments by Businesses
+    https://www.globenewswire.com/news-release/2020/07/01/2056117/0/en/Automation-Continues-to-Drive-Use-of-Electronic-Payments-by-Businesses.html
+
+    Learn how to accelerate your business using automation and AI technology: Transform 2020
+    https://venturebeat.com/2020/07/01/learn-how-to-accelerate-your-business-using-automation-and-ai-technology-transform-2020/
+
     https://www.huffpost.com/entry/automation-race_n_5b20eb7ae4b0adfb826f9f48
     https://www.theatlantic.com/education/archive/2017/12/the-new-casualties-of-automation/548948/
 
     #### Facial Recognition:
+    Facial recognition has a new foe: The world's biggest group of computing professionals
+    https://www.nbcnews.com/tech/security/tech-worker-group-calls-facial-recognition-ban-citing-technical-ethical-n1232591
+
+    In the 'Blackest city in America,' a fight to end facial recognition
+    https://www.cnet.com/news/in-the-blackest-city-in-america-a-fight-to-end-facial-recognition/
+    
     https://thehill.com/policy/technology/475350-government-study-finds-racial-gender-bias-in-facial-recognition-software
 
     If you have a recommendation for additional content subject areas, please reach out to susan@aiandyou.org.
@@ -290,9 +329,18 @@ get_involved1:
     [Learn more about Volunteering](mailto:susan@aiandyou.org?subject=I%20want%20to%20learn%20more%20about%20volunteering)
 
 covid19:
-  title: "AI & COVID-19"
+  title: "AI AND COVID REAL TIME"
   image: "/uploads/tam-wai-nx9LpzQBf9Q-unsplash.jpg"
   prose: |
+    How do you feel about the coronavirus? This company's artifical intelligence can tell you
+    https://www.kens5.com/article/tech/how-do-you-feel-about-the-coronavirus-this-companys-artifical-intelligence-can-tell-you/273-99f1476b-7ec8-40a9-a767-31477ecef38c
+
+    Lost In The Covid-19 Shuffle: 5 Key Areas That Need AI Help
+    https://www.forbes.com/sites/neilsahota/2020/06/24/lost-in-the-covid-19-shuffle-5-key-areas-that-need-ai-help/#75df826136a1
+
+    Tyson and other meat processors are reportedly speeding up plans for robot butchers
+    https://www.cnn.com/2020/07/10/business/tyson-meatpacking-plants-automation/index.html
+
     AI Might Spot At-Risk COVID-19 Patients
 
     https://www.webmd.com/lung/news/20200330/ai-might-spot-at-risk-covid-19-patients#1
