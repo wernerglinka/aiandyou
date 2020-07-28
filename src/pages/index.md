@@ -136,7 +136,7 @@ leadership:
   title: Leadership
   image: "/uploads/susan-gonzales.jpg"
   prose: |
-    ### Susan Gonzales, Founder and CEO
+    ### Susan Gonzales, Founder
 
     Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/watch/live/?v=284660435523814&ref=watch_permalink) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural Information Processing Systems (NeurIPS) AI Global Conference. 
 
