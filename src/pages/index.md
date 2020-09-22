@@ -41,7 +41,7 @@ mission:
   title: Mission
   image: "/uploads/aiandyou10.jpeg"
   prose: |
-    AIandYou.org’s mission is to educate and engage marginalized communities about artificial intelligence (AI).
+    To foster a more _**Inclusive AI Ecosystem**_ by engaging diverse AI leaders and educating marginalized communities of color.
     We’ll create solutions to minimize bias, educate leaders, and strengthen our communities through AI.
 
     _Based in the Bay Area, AIandYou.org is a 501c-3 non-profit organization that creates dialogue in the community to promote AI education, develop research, and offer online resources to help marginalized communities learn about artificial intelligence._
@@ -136,7 +136,7 @@ leadership:
   title: Leadership
   image: "/uploads/susan-gonzales.jpg"
   prose: |
-    ### Susan Gonzales, Founder
+    ### Susan Gonzales, Founder and CEO
 
     Susan led the first global town hall discussing AI and Diversity at Neural Information Processing Systems (NeurIPS) Montreal and was joined by the leaders of LatinX in AI, Black in AI, Women in Machine Learning (WiML) and Queer in AI. Click [here](https://www.facebook.com/watch/live/?v=284660435523814&ref=watch_permalink) to see Susan lead the first AI Diversity and Inclusion Town Hall in Montreal at the 2018 Neural Information Processing Systems (NeurIPS) AI Global Conference. 
 
